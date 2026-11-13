@@ -237,3 +237,17 @@
 
 * **EOF Running Total:** Baseline: 152 | Delta: +5 | Active Total: 157/225
 ======================================================================
+================== SKYRIM-AE-MATRIX: DELTA PATCH 05 ==================
+[TIMESTAMP: 2026-11-13 // BASELINE: 157/225 // DELTA: +1 SLOT]
+
+• GENERATIONAL SUCCESSION, ANCESTRAL HOUSING & GHOST FINALE (+1 Net Slot):
+- Removed Unmaintained Mod (-1 Slot): Alternate Actors SE (causes Level 17+ NPC stat bleed and 1.6.1170 quest alias breakage).
+- Added Character Switcher (+1 Slot): Proteus (spawns true Level 6–8 Heirs cleanly while keeping Gen 1 Father persistent as the immortal Dragonborn blacksmith).
+- Added Alt Start (+1 Slot): Alternate Perspective (USSEP-free start; bypasses vanilla Helgen cart sequence).
+- Ancestral Family Seat (Living Dynasty): Lakeview Manor (purchased via Falkreath Jarl Siddgeir in Season 1 with Dragon Rising suppressed) serves as the permanent family home for Gen 1 parents (Dragonborn Father & Caesia) and living retired heirs for multi-generational visits and family journal documentation until death.
+- Post-Death Off-Grid Storage (+0 Slots): Deceased family members (including Caesia and aged heirs) are moved to isolated interior cells (Winterhold Retreat / The Scarlett lower hold) with NFF Home Base locked and targeted console `tai` (Toggle AI) to prevent sandboxing leaks.
+- Ghost Family Finale Mechanic (+0 Slots): Summon stored deceased family members and apply vanilla ghost shader (`addspell 0005030b`) for translucent ethereal appearances during the finale murder gathering.
+- Prerequisite Check: Confirm SkyUI is active in Vortex essentials (required by Proteus MCM/Wheel).
+
+* **EOF Running Total:** Baseline: 152 | Delta: +6 | Active Total: 158/225
+======================================================================
