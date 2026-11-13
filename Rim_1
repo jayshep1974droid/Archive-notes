@@ -251,3 +251,13 @@
 
 * **EOF Running Total:** Baseline: 152 | Delta: +6 | Active Total: 158/225
 ======================================================================
+================== SKYRIM-AE-MATRIX: DELTA PATCH 06 ==================
+[TIMESTAMP: 2026-11-13 // BASELINE: 158/225 // DELTA: +1 SLOT]
+
+• UI & MCM CORE DEPENDENCY (+1 Active Slot):
+- Added Interface Framework (+1 Slot): SkyUI (SkyUI_SE.esp) — required MCM foundation for Proteus, LotD, NFF, CCOR, Ordinator, and Fertility Mode.
+- Sector 1 Installation Guide Update: Install SkyUI immediately after SKSE64 + Address Library + Engine Fixes in Vortex Sector 1 before deploying gameplay or follower mods.
+- Walkthrough Cross-Check Verified: All other walkthrough locations, followers, quests, and mechanics match active plugins across Parts 1, 2, and Delta Patches 01–05.
+
+* **EOF Running Total:** Baseline: 152 | Delta: +7 | Active Total: 159/225
+======================================================================
