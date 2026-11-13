@@ -51,3 +51,4 @@ set engine fixes to injector as well
 dont see the main files in plugins. no dragonborn or dawngaurd nothing only what was added
 if i start a game a error pops up says skse64 is not running so the skyui wont work
 script command not found because its not seeing it and i manually copied it there and tried again and still the same error
+started directly from the game directory and skse works fine the problem is vortex
