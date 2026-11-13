@@ -318,3 +318,13 @@
 
 * **EOF Running Total:** Baseline: 152 | Delta: +10 | Active Total: 162/225
 ======================================================================
+================== SKYRIM-AE-MATRIX: DELTA PATCH 10 ==================
+[TIMESTAMP: 2026-11-13 // BASELINE: 159/225 // DELTA: +1 SLOT]
+
+• IN-GAME FAMILY JOURNAL & DYNASTY WEDDING PROTOCOL (+1 Active Slot):
+- Added Writable Journal (+1 Slot): Take Notes - Journal of the Dragonborn SSE (TakeNotes.esp) — USSEP-free (uses SkyUI + JContainers); enables live on-camera family history, birth/marriage/death logs, and heirloom inventory tracking inside the ancestral journal.
+- Lakeview Manor Wedding Space (+0 Slots): Dedicated outdoor/courtyard family ceremony spot at Lakeview Manor using SRX - I Do (amulet-free instant vows) for multi-generational family weddings.
+- Season 5 Elisif Marriage Guardrail (+0 Slots): Confirm SRX - I Do / FlowerGirls romance unlock post-CoS coronation; keep console fallback (`addfac 19809 1` + `setrelationshiprank player 4`) ready if CoS Jarl AI overrides proposal dialogue.
+
+* **EOF Running Total:** Baseline: 152 | Delta: +8 | Active Total: 160/225
+======================================================================
