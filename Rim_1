@@ -328,3 +328,15 @@
 
 * **EOF Running Total:** Baseline: 152 | Delta: +8 | Active Total: 160/225
 ======================================================================
+================== SKYRIM-AE-MATRIX: DELTA PATCH 12 ==================
+[TIMESTAMP: 2026-11-13 // BASELINE: 162/225 // DELTA: 0 SLOTS]
+
+• SEASON 6 STORY ALIGNMENT: STOLEN HEIR & RIFT REDEMPTION ARC (0 Slot Change):
+- Opening Inciting Incident: Dynasty family slaughtered in the palace and homesteads; the infant heir is stolen and raised in secret in The Rift (Riften area).
+- Captor's Display Vault & Debt Servitude: Captor hoards all stolen Dynasty heirlooms (locked strictly as unusable dead display trophies inside a Riften-area house) and forces the child to work off a fabricated debt for "raising him."
+- Outlaw Phase & Hidden Execution: Raised as a thief frequenting brothels (`SimpleProstitution.esp` / FlowerGirls), the heir pays off his debt and silently slaughters his captor behind the camera (saved for a later audience reveal).
+- Discovery & DLC Pilgrimage: Searching the Riften house, he uncovers the locked family heirlooms and Dynasty history, shaking him to his core; he departs on a major DLC/worldspace quest pilgrimage (e.g., `Bruma` / `Falskaar` / `Wyrmstooth`) to clear his head.
+- Turning Point (Mother's Journals & Books): During the DLC journey, his mother's hidden journals and Dynasty books (`Take Notes` / `DynastyChronicles_Books.esp`) are revealed—shattering his thief identity and igniting his transformation into the rightful leader he is meant to become.
+
+* **EOF Running Total:** Baseline: 152 | Delta: +10 | Active Total: 162/225
+======================================================================
