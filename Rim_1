@@ -222,3 +222,11 @@
 
 * **EOF Running Total:** Baseline: 152 | Delta: +5 | Active Total: 157/225
 ======================================================================
+================== SKYRIM-AE-MATRIX: DELTA PATCH 02 ==================
+[TIMESTAMP: 2026-11-13 // BASELINE: 157/225 // DELTA: 0 SLOTS]
+
+• CONFLICT RESOLUTION & CLEANUP (0 Slot Change):
+- Removed Duplicate Bathing Mod: Bathing in Skyrim Renewed (0-slot OAR bundle oversight; Keep It Clean + Keep It Cleaner LotD Patch retained)
+
+* **EOF Running Total:** Baseline: 152 | Delta: +5 | Active Total: 157/225
+======================================================================
