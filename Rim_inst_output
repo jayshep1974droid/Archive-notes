@@ -52,3 +52,7 @@ dont see the main files in plugins. no dragonborn or dawngaurd nothing only what
 if i start a game a error pops up says skse64 is not running so the skyui wont work
 script command not found because its not seeing it and i manually copied it there and tried again and still the same error
 started directly from the game directory and skse works fine the problem is vortex
+all esm files present in correct path
+rechecked and reset vortex pathes accross the board confirmed
+deleted and created a new profile within vortex and no difference
+skse is working give version from command and skyui runs within mcm
