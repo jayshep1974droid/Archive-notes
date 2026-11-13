@@ -294,3 +294,16 @@
 
 * **EOF Running Total:** Baseline: 152 | Delta: +7 | Active Total: 159/225
 ======================================================================
+================== SKYRIM-AE-MATRIX: DELTA PATCH 09 ==================
+[TIMESTAMP: 2026-11-13 // BASELINE: 159/225 // DELTA: 0 SLOTS]
+
+• POST-INSTALLATION OPTIONAL TEST: RACEMENU 30-MINUTE CLONED PROFILE TRIAL (0 Slot Change):
+- Baseline Lock First: Complete full Sector 0–5 deployment and verify stable boot with Enhanced Character Edit SE (ECE) + Fertility Mode v3 Weight Scaling active on the primary Vortex profile.
+- Cloned Profile Test Protocol (Hard 30-Minute Cutoff):
+  1. Clone the verified primary Vortex profile (never modify the main profile directly).
+  2. On the cloned test profile only, disable ECE (`CharacterMaker.esp`) and enable `RaceMenu AE v0.4.20.0` + `RaceMenu OverlayFix` (set `bEnableFaceOverlays=0` in `skee64.ini`).
+  3. Test boot, `showracemenu`, `Proteus` character preset swap, and `Fertility Mode` belly morph scaling.
+- Automatic Fallback Rule: If any CTD occurs or troubleshooting hits the 30-minute hard timer, immediately delete the cloned test profile and revert to the intact primary `ECE` + Weight Scaling profile.
+
+* **EOF Running Total:** Baseline: 152 | Delta: +7 | Active Total: 159/225
+======================================================================
