@@ -46,3 +46,8 @@ game launch 100%
 the fixes log not present documents\my games\skyrim special edition\skse
 batch 2 done all verfied for ae version
 no skse menu in the my documents\my games\skyrim speacial edition directory
+was looking in the wrong place found it set it as injector
+set engine fixes to injector as well
+dont see the main files in plugins. no dragonborn or dawngaurd nothing only what was added
+if i start a game a error pops up says skse64 is not running so the skyui wont work
+script command not found because its not seeing it and i manually copied it there and tried again and still the same error
