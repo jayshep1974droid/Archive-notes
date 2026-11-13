@@ -307,3 +307,14 @@
 
 * **EOF Running Total:** Baseline: 152 | Delta: +7 | Active Total: 159/225
 ======================================================================
+================== SKYRIM-AE-MATRIX: DELTA PATCH 11 ==================
+[TIMESTAMP: 2026-11-13 // BASELINE: 160/225 // DELTA: +2 SLOTS]
+
+• PUBLISHER STOREFRONT, DYNASTY BOOKS, TTS NARRATOR & DAUGHTER REVEAL (+2 Active Slots):
+- Added Bookshop Storefront (+1 Slot): Books of Skyrim SE (BooksOfSkyrim.esp) — establishes the Solitude Publishing House / Bookshop acquired by the adopted son in late Season 2 (optional CK/SSEEdit back-office interior edit for printing press staging).
+- Added Custom Dynasty Books (+1 Slot): DynastyChronicles_Books.esp — physical in-game volumes populated from Take Notes XML exports; archived for post-series lore-master review (Seasons 6–10 backdated prequel) and Nexus mod release.
+- Automated Narrator Voice Solution (+0 Slots): Generate distinct storyteller voice via TTS (with 5–8s opening silence buffer) and bind via `OnRead()` book sound script (or OBS audio hotkey) so narration starts automatically as the player closes the book and walks through the house.
+- Hidden Daughter Revenge Reveal (+0 Slots): Adopted son betrays family -> "No Adopted Heirs" decree -> executed off-camera; daughter is NOT shown during execution (kept off-grid via `tai` freeze) for a blind audience reveal when tracked down at the climax of her revenge arc, leading to family reconciliation.
+
+* **EOF Running Total:** Baseline: 152 | Delta: +10 | Active Total: 162/225
+======================================================================
