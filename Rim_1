@@ -144,3 +144,30 @@
   - Elite Follower 13: Recorder Follower Base.esp (Fully Voiced Inter-Dimensional Observer)
   - Elite Follower 14: RoxieTheMad.esp (CBBE 3BA Goblin Follower, Default Sultry / FG Compatible)
 ======================================================================
+================== SKYRIM-AE-MATRIX: UNIFIED CORE COMPLETE ============
+[DATASET_TOKEN: SK-AE-MATRIX-MASTER-162SLOTS // TIMESTAMP: 2026-11-10]
+[RUNTIME: v1.6.1170+ // PLUGINS: 162/225 CAPACITY MAPPED // ENVIRONMENT: VORTEX]
+
+• CORE REIGN STRATEGY & CONQUEST SYSTEM:
+  - Faction Alignment: Bypass/Destroy Thieves Guild & Dark Brotherhood. Neutral Civil War.
+  - Endgame Trigger: Conquest of Skyrim (CoS) activated in Phase 5 to seize Solitude Blue Palace and claim High King throne. 
+  - Real Estate Network: LandLord (Taverns/Shops buyouts), Windstad Mine, Blackthorn, Fellburg (Noble House).
+  - Production Loops: CCOR 100% recycling + Toymania + Clothing expansions feeding owned Solitude retail storefronts for optimized dividend cash flow.
+  - Domestic Logistics: Hearthfire Multiple Adoptions Expanded. Strict 2-kids-per-estate limit across 5 safe mainland hubs to enforce 8-NPC maximum cell safety rules (Zero Siege/Cell Lag).
+  - Progression Gates: Hold all major DLCs and worldspaces (Solstheim, Bruma, Wyrmstooth, Falskaar, Midwood, Moonpath) until Level 30+ to prevent quest stalling and optimize LotD high-tier relic scaling.
+
+• 5-PHASE CRITICAL ROUTING PATHWAY:
+  - Phase 1 (Falkreath Baseline): Oakwood/Pinewatch Trade indices -> Auri & Caesia recruitment -> early Toymania/Phenderix elements injection -> Moonpath expedition -> CCOR property buildout -> Suppress Dragon Rising.
+  - Phase 2 (Whiterun Core): Goldenhills Plantation layout (2 kids) -> Sofia stables recruitment & NFF check -> Breezehome purchase -> Whiterun orphans relocated -> Voiced Books library integration.
+  - Phase 3 (The Rift Pivot): Blackthorn Town buildout (2 kids) -> Riften skooma investigation -> Goldenglow Is Yours deed capture -> Grelod execution -> Falskaar expedition campaign.
+  - Phase 4 (Northern Maritime & Rescue): Windstad Mine & The Scarlett build -> Clear Frozen Waste rescue nodes (Valie deployed as Mine security) -> Dimhollow Crypt (Serana isolated) -> Soul Cairn -> Belethor's Sister level 20 quest unblock -> Proudspire Manor / Solitude adoptions to 10/10 max cap -> Fertility Mode conception script execution -> Wyrmstooth & Midwood island raids.
+  - Level 30+ Campaigns: Solstheim Campaign (Severin Manor HQ, Teldryn/Frea NFF capture, Black Books) -> Volkihar Purge (Human Serana cure) -> Cyrodiil Border Expansion (Bruma townhouse, NFF guard garrison, LandLord integration).
+  - Phase 5 (Conquest Peak): Blackreach Railroad loops -> Dark Brotherhood Sanctuary purge -> Left Hand Crossing market integration -> LC_Citadel military command ascension -> CoS activation -> Solitude Siege & Royal High Court execution.
+
+• TECHNICAL REPLICANT TOOL STAGING SECTORS:
+  - Sector 1: SKSE64 + Address Library + Engine Fixes (Part 1 Vortex / Part 2 Manual Root) + Tweaks + BEES.
+  - Sector 2: Cathedral Weather + Skyland AIO + Majestic Mountains + Shipping Physics + LotD Museum Core + Official Patches.
+  - Sector 3: LandLord + TradeRoutes + EVE + C.O.I.N.S. + Settlement files + Spaghetti's Cities AIO + HMA 10-Kids + Toymania.
+  - Sector 4: Modpocalypse (Base) + Pandorable/PAN_Initiates (Load After) + NFF (Elite Follower Exclusions Engaged) + FlowerGirls + Fertility Mode v3 + 14 Elite Followers + Rescue mods.
+  - Sector 5: XPMSSE (Load After armor/clothing) + Faster HDT-SMP + OAR + Precision + Valhalla + BFCO + SCAR + Campfire (Wilderness trail-station preservation). Run PANDORA BEHAVIOR ENGINE to generate animation cache post-deployment.
+======================================================================
