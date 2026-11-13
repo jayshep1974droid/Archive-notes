@@ -68,9 +68,9 @@
 ======================================================================
 ================== SKYRIM-AE-MATRIX: NODE 2A - PART 2 =================
 [DATASET_TOKEN: SK-AE-PART2-SYSTEMS-RIGGING // TIMESTAMP: 2026-11-10]
-[RUNTIME: v1.6.1170+ // BUFFER CAPACITY: 96 SLOTS LOCKED // OVERALL TOTAL: 162/225]
+[RUNTIME: v1.6.1170+ // BUFFER CAPACITY: 90 SLOTS LOCKED // OVERALL TOTAL: 152/225]
 
-• GAMEPLAY, REPUTATION & FEUDAL MECHANICS (15 Slots)
+• GAMEPLAY, REPUTATION & FEUDAL MECHANICS (14 Slots)
   - Faction Mechanics A: Faction Warfare // Faction Mechanics B: Lawbringer
   - Player Reputation: Skyrim Reputation // Economic Rule: Trade and Barter
   - Micro-Economy Cycle: Evolving Value Economy (EVE)
@@ -85,7 +85,7 @@
   - Survival Immersion B: Campfire.esm (1 Master Slot Locked - Camping Core)
   - Romance Mail: LettersFromTheFront.esp (Dynamic Civil War / Faction Letters)
 
-• STRUCTURAL ANIMATION, PHYSICS, SKELETON RIGGING & AUDIOBOOKS (11 Slots)
+• STRUCTURAL ANIMATION, PHYSICS, SKELETON RIGGING & AUDIOBOOKS (09 Slots)
   - Behavior Compilation Interface: Pandora Behavior Engine (DXP_PandoraCore.esp)
   - Physics Matrix: FSMP - Faster HDT-SMP (FSMP_FasterHDT.esp)
   - Structural Rigging: XP32 Maximum Skeleton Special Extended (XPMSSE.esp)
@@ -105,7 +105,7 @@
   - Family Inheritance: Hearthfire Children Grow Up SE (HF_ChildrenGrowUp.esp)
   - Generational Succession: Alternate Actors SE - Player Choice Edition (AlternateActorsSE.esp)
 
-• POPULATION, AI, INTELLECTUAL FOLLOWERS & ADULT CORE (61 Slots)
+• POPULATION, AI, INTELLECTUAL FOLLOWERS & ADULT CORE (58 Slots)
   - NPC Baselines: Modpocalypse NPCs // Targeted Aesthetics: Pandorable's NPCs 
   - College Aesthetics: PAN_Initiates.esp (Danmer Initiates High Poly Overhaul)
   - High-Profile Royalty Face Overhaul: Emma_ElisifReplacer.esp (High Poly Mesh Overhaul)
