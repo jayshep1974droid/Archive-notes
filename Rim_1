@@ -209,19 +209,7 @@
 - Base Body & Physics Mesh: Caliente's Beautiful Bodies Enhancer (CBBE) + CBBE 3BA (3BBB) + BodySlide
 
 * **EOF Running Total:** Baseline: 152 | Delta: +5 | Active Total: 157/225
-======================================================================
-================== SKYRIM-AE-MATRIX: DELTA PATCH 01 ==================
-[TIMESTAMP: 2026-11-13 // BASELINE: 152/225 // DELTA: +5 SLOTS]
-
-• ADDED CORE DEPENDENCIES (+5 Active Slots):
-- Endgame Conquest: Conquest of Skyrim (CoS)
-- Estate Deed Capture: Goldenglow Is Yours
-- Legal Treasury Vault: Dynamic Treasury Resource / Gold Master SSE
-- Illicit Economy Loop: Become a Skooma Dealer
-- Base Body & Physics Mesh: Caliente's Beautiful Bodies Enhancer (CBBE) + CBBE 3BA (3BBB) + BodySlide
-
-* **EOF Running Total:** Baseline: 152 | Delta: +5 | Active Total: 157/225
-======================================================================
+=================================================================
 ================== SKYRIM-AE-MATRIX: DELTA PATCH 02 ==================
 [TIMESTAMP: 2026-11-13 // BASELINE: 157/225 // DELTA: 0 SLOTS]
 
@@ -237,6 +225,15 @@
 - Skeleton Rule: XPMSSE must Load After (overwrite) TNG, RS Children Overhaul, CBBE, and CBBE 3BA (prevents HDT-SMP physics stretch/crash).
 - Facegen Rule: Emma_ElisifReplacer.esp must Load After (overwrite) both Modpocalypse NPCs and Pandorable's NPCs (prevents Elisif dark-face bug).
 - Tool Output Rule: BodySlide generated meshes overwrite all outfit/body mods; Pandora Behavior Engine output overwrites all behavior/animation mods.
+
+* **EOF Running Total:** Baseline: 152 | Delta: +5 | Active Total: 157/225
+======================================================================
+================== SKYRIM-AE-MATRIX: DELTA PATCH 04 ==================
+[TIMESTAMP: 2026-11-13 // BASELINE: 157/225 // DELTA: 0 SLOTS]
+
+• TIMELINE RECONCILIATION & PRE-RUN GATE (0 Slot Change):
+- Master Schedule Precedence: Section 4 (5-Season Generational Timeline) supersedes Section 3 single-run phrasing; Phases 1–5 map 1:1 to Seasons 1–5.
+- Pre-Season 1 Test Gate [TEST:NOW]: Verify Alternate Actors SE heir swap preserves Legacy of the Dragonborn safehouse ownership, LandLord property deeds, and HMA 10-kid home bindings before live Season 1 capture.
 
 * **EOF Running Total:** Baseline: 152 | Delta: +5 | Active Total: 157/225
 ======================================================================
