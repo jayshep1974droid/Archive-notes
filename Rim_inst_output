@@ -4,3 +4,8 @@ deleted all instances of Skyrim on the machine
 deleted the whole skyrim save directory
 extracting to c:\games\Skyrim_AE now
 no vortex related requirment has started still two vortex instances present. have to make sure all is purged please
+Vortex staging folder confirm
+vortex uninstalled via control panel
+appdata vortex purged 35gb
+all additional vortex files purged via c:\ search not skyrim related files
+one shortcut file left no location in search or file properties name-Vortex%20staging internet address-file:///C:/games/vortex%2520staging
