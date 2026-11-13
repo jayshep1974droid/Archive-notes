@@ -284,3 +284,13 @@
 
 * **EOF Running Total:** Baseline: 152 | Delta: +7 | Active Total: 159/225
 ======================================================================
+================== SKYRIM-AE-MATRIX: DELTA PATCH 08 ==================
+[TIMESTAMP: 2026-11-13 // BASELINE: 159/225 // DELTA: 0 SLOTS]
+
+• USSEP-FREE GUARDRAIL & CHARACTER EDITOR LOCK (0 Slot Change):
+- Character Editor Retained: Enhanced Character Edit SE (CharacterMaker.esp) kept; RaceMenu excluded (no post-April 2026 CommonLibSSE-NG update released; v0.4.20.0 from April 20, 2026 carries known overlay NIF crash risks).
+- Proteus & 3BA Adaptation: Use ECE character save slots (`showracemenu`) for customizing each new Level 6–8 Heir and fixed BodySlide presets for CBBE 3BA outfits.
+- USSEP-Free FOMOD Guardrail: Ensure all FOMOD installers (CCOR, Ordinator, AI Overhaul, LotD Official Patch Hub) select non-USSEP / vanilla-master options so no missing USSEP master warnings occur.
+
+* **EOF Running Total:** Baseline: 152 | Delta: +7 | Active Total: 159/225
+======================================================================
