@@ -230,3 +230,13 @@
 
 * **EOF Running Total:** Baseline: 152 | Delta: +5 | Active Total: 157/225
 ======================================================================
+================== SKYRIM-AE-MATRIX: DELTA PATCH 03 ==================
+[TIMESTAMP: 2026-11-13 // BASELINE: 157/225 // DELTA: 0 SLOTS]
+
+• VORTEX OVERWRITE & DEPLOY RULES LOCKED (0 Slot Change):
+- Skeleton Rule: XPMSSE must Load After (overwrite) TNG, RS Children Overhaul, CBBE, and CBBE 3BA (prevents HDT-SMP physics stretch/crash).
+- Facegen Rule: Emma_ElisifReplacer.esp must Load After (overwrite) both Modpocalypse NPCs and Pandorable's NPCs (prevents Elisif dark-face bug).
+- Tool Output Rule: BodySlide generated meshes overwrite all outfit/body mods; Pandora Behavior Engine output overwrites all behavior/animation mods.
+
+* **EOF Running Total:** Baseline: 152 | Delta: +5 | Active Total: 157/225
+======================================================================
