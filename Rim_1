@@ -261,3 +261,26 @@
 
 * **EOF Running Total:** Baseline: 152 | Delta: +7 | Active Total: 159/225
 ======================================================================
+================== SKYRIM-AE-MATRIX: DELTA PATCH 07 ==================
+[TIMESTAMP: 2026-11-13 // BASELINE: 159/225 // DELTA: 0 SLOTS]
+
+• SECTOR 0: PRE-INSTALLATION & ENVIRONMENT PREP GUIDE (0 Slot Change):
+- Directory Architecture (Same-Drive NTFS Hardlink Rule):
+  * Game Root: `D:\Games\Skyrim AE` (copied from clean offline Golden Vanilla Backup; never inside `Program Files`)
+  * Vortex Mod Staging: `D:\Games\Vortex Staging\Skyrim AE` (must share exact drive partition with Game Root)
+  * Vortex Downloads: `D:\Games\Vortex Downloads` (any drive allowed)
+  * Modding Tools: `D:\Games\Modding Tools` (standalone folder for Pandora, BodySlide, BethINI Pie, SSEEdit)
+  * Dedicated Output Folders (Inside Vortex Staging): `Pandora Output`, `BodySlide Output`, `Proteus Output` (deployed as active mods with highest overwrite priority; never output directly into `Skyrim AE\Data`)
+  * Isolated Saves: Enable Vortex Profile Management -> toggle "This profile has its own save games" (or map `SLocalSavePath` in `SkyrimCustom.ini` with Vortex profile saves disabled)
+- Offline Golden Backup & AE Master Verification:
+  * Verify clean offline Golden Vanilla Backup (`v1.6.1170+`) is cloned into `D:\Games\Skyrim AE` with all pre-downloaded AE Creation Club (`ccBGSSSE...`) masters intact.
+  * Keep Steam in Offline Mode / set updates to "Only update this game when I launch it" + verify `appmanifest_489830.acf` is Read-Only.
+  * Run vanilla launcher once if registry paths need re-pointing to the new directory.
+- Security & Engine Stability Prep:
+  * Verify Windows Defender exclusions cover `D:\Games\Skyrim AE`, `D:\Games\Vortex Staging`, and `D:\Games\Vortex Downloads`.
+  * Run BethINI Pie (High preset + Recommended Tweaks) on clean vanilla INIs before mod deployment.
+  * Configure `EngineFixes.toml`: set `MaxStdio = 8192`, `SaveGameMaxSize = true`, and `EnableAchievementsWithMods = true`.
+  * Vortex External Changes Rule: Always click "Save Changes" (never "Revert") when Proteus saves character JSON presets.
+
+* **EOF Running Total:** Baseline: 152 | Delta: +7 | Active Total: 159/225
+======================================================================
