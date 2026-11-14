@@ -1,6 +1,4 @@
 14 Nov 2026
-would it not be "better" if we put the "tools" through vortex but copy it manually directly to the folders?
-i just think that way we avoid any unnecessary installation problems with the base which the mods run on
-skse is already done like that
-so maybe the address library and the fixes
-the tweaks one, and what others fall into that category?
+one one of the things missed during our speedy run yesterday
+engine fixes is only a single enry now, the mod was updated
+we will keep to your advise, it's only skse thats directly in the game folder at the moment 
