@@ -1,58 +1,22 @@
-not interact, this one the walls and floors snaps in place
-interact ive seen before. basic,
-this on is another level all rogether. ill dind the YouTube link
-and send it if its possible. interact cant make landscape changes
+before i can answer that question let me gove you my view.
+skyrim is like on of thise visual novels. the options is just a lot more.
+and of course collectio and loss. which work on the same principles
+also in a walkthrough of skyrim, there is no mods. there is simply the works and what is available 
+so the information you have to draw from is set. and get less as you choose one of the options
+same brotherhood example. the dataset for the walkthrough should, in my option, be incased by area.
 
-im sure i saw a mcm for the voiced books. if it doent have one then its not working
+a player that chases quests wil create a heas start yes, but by the time i hit the 3rd area im finishing 10 wuests while hes still running around the map with his 5th or 8th quest
 
-regarding the handover when restarting chat.
-now take the following for what it is, i can only state it as i see it
-the terminology is based on the closest comparable human understanding of it
-i dint want to start another "i have to be honest with you" conversation 
+so taking that into consideration.let me use this as guide
+lets say there is 5 areas, we number them from 1 to 5, there is 10 quests and we number them from 1 to 50(total), there is 2 adoptable children we number 1&10(total), and all others we do the same
+then ill let the pinpoint look like this
 
-firstly, because on a new chat you dont have the context of the overall previous chat, 
-its like dealing with a different "person or personality", combined with
-the amount of data and indepth requirement been thrown into the mix
-creates an automatic drift. "confused state". although the information is readily available 
-it makes no difference and we cant paste the whole chat. (or maybe we can with git, big maybe)
-the ither thing, i dont think the long term drift we can address properly because
-you were not developed for it, when you come to a certain point, the total context and sheer amount of information
-becomes un-manageble. and the drift is almost un-avoidable 
-but the normal drift and new chat start is not
+area 3,4,5_6,12,18,26_1,5.  (in area 3 with 4 and 5 oustanding with quest 6,12,18 and 26 stil oustanding with adoptable child 1 and 5 also outstanding.
+there is much more than that, but thats how i see the basics of it.
+if the information is complete, it can be used as a pin location.
+and that way also not giving you a magnitude of additional information
+unique this we give an id, so id=obtained and so on. and in my opinion can be a log on the dataset itself
+because the it will be useless ror the framework itself
 
-i can not comment on how you do or should do things, rather,
-i will explain how i use the flag system as a human and ill use Excel to explain 
-im extremely effective with it, and created one for skyrim. the problem wasnt creating the tool
-but getting the information for it
-
-Excel, for this exercise lets presume all available information is in the sheets from mods, technical, reviews... basically the whole toot
-I will try to be as specific as i can because i want you to understand
-now with all that info there already, regardless of how it is structured. i will add flags to all information, you'll see shortly how.
-
-i add a "mod" 4 information pages firstly and what these pages does, will be automaticly done
-the 4 pillars ill use for skyrim is pre-installation, installation, setup and walkthrough
-the main point of these pages is simply to draw all relevant single mod information
-the walkthrough will be different though, while the others does a comparison with vanilla information, the walkthrough will use the vanilla information
-and will also have unique tags in comparison to the others
- so now you have 4 different sheets added for each section.
-
-then i add another 5 sheets, only one i will use, you will see shortly because i start with the one i use, ill call it mod choice( the 4 sheets will be modlist, pre-installation, installation and walktrough
-on that page i add a dropbox with mod categories, player homes, armor & clothes ext
-then i add another where only the mod that fall in the category chosen will show up in the dropbox
-the main cell chosen on all the previously mentioned pages will dill when this choice is made, of then they will draw in all the mod information
-the mod choice page will then display the relavant information looking at the modlist, and this is where your comparison page gets created. sometimes 2 depending an sheet limitations.
-next to the mod choice within the mod choice sheet will display, not compatible, compatible with conflicts, compatible with conflict and changes or depending what responces the comparison page concluded
-right underneath that choice will be an add button that will be greyed if not compatible 
-on using add mod, it will add it to the 2 split modlist, starting from 1. it will do the same for all the other 3 pages at the same time. adding the information relevant to the page.
-
-if you start the installing, on the completion of the installation you click the tick box for install and it removes it drom the left side and add it to the right side of the page. and except for the walkthrough it will do thay same as the installation page
-this is a simple explanation, because seting it up like that is definitely not easy or childs play
-
-im not going to do the walkthrough because you have various vanilla input. if the brotherhood is destroyed their quests will not pop up when you in the area where was supposed to be
-
-the main point being, if i choose a single mod i only have to look at rhe relevant information
-
-i hope i made sense, but even if i did i dont know how much help it will be
-you are welcome to ask questions if you wish or need clarification on some points
-
-i think we can use this type of setup for handover, it will help with re establishing context, and pinpoint where we left off. i think, or i hope might be a better word
+sorry, dont want to jump your suggestion but think creating a addition process is not required
+what do you think?
