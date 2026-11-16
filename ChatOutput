@@ -1,22 +1,15 @@
-before i can answer that question let me gove you my view.
-skyrim is like on of thise visual novels. the options is just a lot more.
-and of course collectio and loss. which work on the same principles
-also in a walkthrough of skyrim, there is no mods. there is simply the works and what is available 
-so the information you have to draw from is set. and get less as you choose one of the options
-same brotherhood example. the dataset for the walkthrough should, in my option, be incased by area.
+well i dont think we should use numering firstly, to many duplicate numbers will be prduced even if they are split.
+and my example has an error with the kids,7 to 10 should be there as well.
+and since not all players do area at a time. so maybe we dont have to track completed areas. youll see if an area is complete when there is no
+things left to do in it type of thing
 
-a player that chases quests wil create a heas start yes, but by the time i hit the 3rd area im finishing 10 wuests while hes still running around the map with his 5th or 8th quest
+but for pinpointing we can use area abbreviations,there are little main areas
+and on quests i think we should split and use area abbreviations infront of the nr, beacause there is too many, which will masively increase the filesize.
+and we put the area main quests, town speasific quests, follower quests, mine quests, dungeon quests and so one. so that you dont have to add every single quest outstanding. 
+same with the homes. so it will be wr_all or wr_mq3-9 for main quests or wr_ore9-13 for mine quest or wr_all if we havent been there yet.
 
-so taking that into consideration.let me use this as guide
-lets say there is 5 areas, we number them from 1 to 5, there is 10 quests and we number them from 1 to 50(total), there is 2 adoptable children we number 1&10(total), and all others we do the same
-then ill let the pinpoint look like this
+sorry it takes time for me too see it clearly in the head.
+but that the idea. can you look at what would not be able to work like that, because we can use the same system just with a differnt methodology to track uniques
 
-area 3,4,5_6,12,18,26_1,5.  (in area 3 with 4 and 5 oustanding with quest 6,12,18 and 26 stil oustanding with adoptable child 1 and 5 also outstanding.
-there is much more than that, but thats how i see the basics of it.
-if the information is complete, it can be used as a pin location.
-and that way also not giving you a magnitude of additional information
-unique this we give an id, so id=obtained and so on. and in my opinion can be a log on the dataset itself
-because the it will be useless ror the framework itself
-
-sorry, dont want to jump your suggestion but think creating a addition process is not required
-what do you think?
+for the current build discussion 
+i will do the adding, removing as soon as i have a chance.
