@@ -1,15 +1,11 @@
-well i dont think we should use numering firstly, to many duplicate numbers will be prduced even if they are split.
-and my example has an error with the kids,7 to 10 should be there as well.
-and since not all players do area at a time. so maybe we dont have to track completed areas. youll see if an area is complete when there is no
-things left to do in it type of thing
+adding the comma seperated for non linear quests will work, it doesnt matter where the quest go, its identified from where it starts
+think the top will cover quests thats accross borders already, what we can add there is a non completion tag. still in progress maybe?
+that will be relevant dor the dlc's as well. and to me a dlc is just another area, dont think we should try and seperate it. rhey are unique only in the fact that we added it?
+the only unique things i see that would need tracking is the relics and lotd eisplay items.
 
-but for pinpointing we can use area abbreviations,there are little main areas
-and on quests i think we should split and use area abbreviations infront of the nr, beacause there is too many, which will masively increase the filesize.
-and we put the area main quests, town speasific quests, follower quests, mine quests, dungeon quests and so one. so that you dont have to add every single quest outstanding. 
-same with the homes. so it will be wr_all or wr_mq3-9 for main quests or wr_ore9-13 for mine quest or wr_all if we havent been there yet.
+what is more difficult to keep you update with within the walkthrough is the kids, which i thonk we should track them and there placement
+but if i have a child, it would be out of your view, so ill have to tell you i had a boy with name xxx, so you can tag it. and did any child or wife move should be one of the questions you should ask everytime playthrou continues
+anything that is not stationary will fall in the same category
 
-sorry it takes time for me too see it clearly in the head.
-but that the idea. can you look at what would not be able to work like that, because we can use the same system just with a differnt methodology to track uniques
-
-for the current build discussion 
-i will do the adding, removing as soon as i have a chance.
+dont know if that answered your question, please check if everything that can be track fall into these, i will need you on every step with the walkthrough for the video.
+we can not assume thing during the walkthrough we will make asses of ourselves quickly
