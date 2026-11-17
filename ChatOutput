@@ -1,4 +1,14 @@
-can we create an update git file that updates the
-framework. it will have to loaded everytime
-but its better i think. example the amount of logs update
-does that make sense?
+yes we should start doing it, i do prefer calling it CoreUpdate though
+but i will add to it only after todays changes
+
+what i do want to discuss is the handover process of adding to the walkthrough.
+the main point has to be context, especially with the storyline we added.
+so we will have 2 seperate lines in my opinion, the map that will be controlled by the complete modlist
+and the characters that be plotted on the map. the map progression will be added to the map side and the storyline to the characters
+would that work? 
+
+so effectively, the handover should contain the characters effected, where you can find the changes in the logs and immediately see the impacts across characters
+and the map which will depend on character movements if there is any
+that way we know where they would be before we start doing the storyline
+
+would these work together?
