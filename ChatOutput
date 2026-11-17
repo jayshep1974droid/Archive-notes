@@ -1,7 +1,8 @@
-neither we need now, now that both has been set we can
-check on the next restart if we need to change something.
-so we will cover them only with the next restart.
-the walkthrough handover will be added to the logs, the problem
-becomes how to override the previous handover without creating confusion. 
-this would be for walkthroug.
+the CoreUpdate will only be for updating the core framework. it loads
+without project data so it will create confusion trying to continue something thats not present
+
+sorry it was my mistake, the logs i was referring to will go to the rim git data i load.but that 
+will also change within the next few days. you only need the complete modlist for the map part within the walkthrough
+so ill presume the logs for the walkthrough will go there? so the dirst part of that file would be the
+mods and then the logs will hold the story on the map?
 
