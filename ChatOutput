@@ -1,14 +1,7 @@
-yes we should start doing it, i do prefer calling it CoreUpdate though
-but i will add to it only after todays changes
+neither we need now, now that both has been set we can
+check on the next restart if we need to change something.
+so we will cover them only with the next restart.
+the walkthrough handover will be added to the logs, the problem
+becomes how to override the previous handover without creating confusion. 
+this would be for walkthrough in completion.
 
-what i do want to discuss is the handover process of adding to the walkthrough.
-the main point has to be context, especially with the storyline we added.
-so we will have 2 seperate lines in my opinion, the map that will be controlled by the complete modlist
-and the characters that be plotted on the map. the map progression will be added to the map side and the storyline to the characters
-would that work? 
-
-so effectively, the handover should contain the characters effected, where you can find the changes in the logs and immediately see the impacts across characters
-and the map which will depend on character movements if there is any
-that way we know where they would be before we start doing the storyline
-
-would these work together?
