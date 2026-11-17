@@ -1,0 +1,14 @@
+# ======================================================================
+# SSEEDIT NPC RENAME BATCH (RIM1_CustomNames.esp)
+# ======================================================================
+# FORMAT: Plugin.esm | FormID_Hex | Old_Name | New_Name | Role_Note
+
+Skyrim.esm | 00013BA3 | Lucia | Elara | Adopted_Child_Whiterun
+Skyrim.esm | 0001326A | Camilla Valerius | Freya | Riverwood_Spouse_Candidate
+Skyrim.esm | 00013485 | Faendal | Torin | Early_NFF_Quartermaster
+Skyrim.esm | 00019809 | Lydia | Astrid | Whiterun_Housecarl
+Update.esm | 00003F5E | Sofie | Mira | Adopted_Child_Windhelm
+
+# ======================================================================
+# EOF_NPC_RENAMES | TARGET_PLUGIN=RIM1_CustomNames.esp | COUNT=5
+# ======================================================================
