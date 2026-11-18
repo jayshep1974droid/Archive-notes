@@ -1,14 +1,14 @@
 001 - Bobbing Framework 
 002 - Bodyslide
-003 - Books of Skyrim
+003 - esp Books of Skyrim
 004 - Bugfixes SSE
-005 - CBBE
+005 - esp CBBE
 006 - esm Campfire 
 007 - Caranthir Tower Reborn
-008 - Cathedral Weathers
-009 - CBBE 3BA
+008 - esp Cathedral Weathers
+009 - esp CBBE 3BA
 010 - CBPC
-011 - Chaconne Follower 
+011 - esp Chaconne Follower 
 012 - Common Clothes and Armors
 013 - Common Clothing Expansion 
 014 - CCOR
@@ -17,17 +17,17 @@
 017 - Crash Logger SE&AE
 018 - Detailed Landscapes (Ships Replacer)
 019 - Dwemer Pipework Reworked 5
-020 - Dynamic Activation Key
+020 - esp Dynamic Activation Key
 021 - Dyndolod dll NG & Scripts 
 022 - Dyndolod Resources SSE
-023 - esn Dyndolod V3
+023 - esl Dyndolod V3
 024 - Dyndolod_Output
-025 - Elysia Follower
+025 - esp Elysia Follower
 026 - esp Elysium Estate
 027 - esp ECE
 028 - esp ELFX
 029 - esl Elin Follower
-030 - EVG Conditional Idles
+030 - esp EVG Conditional Idles
 031 - esl Expressive FaceGen Morphs
 032 - Expressive Facial Animation Female
 033 - Expressive Facial Animation Male
@@ -50,11 +50,11 @@
 050 - esm High Polly Head
 051 - esp Hillgrund Survivor 
 052 - esp Hunterborn
-053 - Immersive Interactions
+053 - esp Immersive Interactions
 054 - esp Immersive Sound Compendium 
 055 - JContainers
 056 - esp Keep it Clean 
-057 - KS Hairdos
+057 - esp KS Hairdos
 058 - esp Lakeview Basement Noble Beds
 059 - Lakeview Pool & Hot bath
 060 - Landlord
@@ -257,7 +257,13 @@
 263 - esp LotD TCC Helgen
 264 - esp Fertility Mode Flower Girls
 265 - esp Fertility Mode RSChildren
-266 - 
+266 - esp Elin Replacer
+267 - esp Character Making Extender 
+268 - esp 12 Female Brows
+269 - esp High Polly Head Vampire Fix
+270 - esp Hunterborn Campfire Patch 
+271 - esp Hunterborn Soups & Stews
+272 - 
 
 
 
