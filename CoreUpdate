@@ -1,0 +1,12 @@
+# COREUPDATE — FRAMEWORK DELTA OVERRIDE (AR-PC-WORKSPACE-v7.6)
+* **Override Target:** `AR-PC-WORKSPACE-v7.6` (`TEXTBOX 1` Base Template)
+* **Last Sync Date:** `2026-11-18`
+* **Total Logs:** `171` (`VAULT_02` / `Logvault_1` | Range: `[LOG-01]`–`[LOG-171]`)
+* **Slot 2 Ref Count:** `198/225`
+* **Active Project File:** `RimBuild` (`ACTIVE_WT_HANDOVER=WT_SYNC_001`)
+
+## Boot & Rule Overrides
+* **Manifest Override:** Replace static `Total Logs: 145` and `Slot 2 Ref: 0/225` in `TEXTBOX 1` with `Total Logs: 171` and `Slot 2 Ref: 198/225` on boot so zero manual edits to `TEXTBOX 1` are required.
+* **Three-File Separation (`[LOG-149]`):** `CoreUpdate` holds framework counts and rules only; `Logvault_1` holds system/build logs (`[LOG-01]`–`[LOG-171]`); `RimBuild` holds the active modlist and append-only `WT_SYNC_XXX` walkthrough handovers.
+* **Walkthrough Latest-Wins Rule (`[LOG-148]`):** On project load, jump directly to `ACTIVE_WT_HANDOVER` (`WT_SYNC_001`) at the bottom of `RimBuild` and treat all lower-numbered `WT_SYNC` blocks as archived history.
+* **Execution Pace (`[LOG-73]`):** Maintain single-step execution unless multiple steps are explicitly requested.
