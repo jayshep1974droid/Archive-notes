@@ -31,7 +31,7 @@
 031 - esl Expressive FaceGen Morphs
 032 - Expressive Facial Animation Female
 033 - Expressive Facial Animation Male
-034 - Faction Warfare 
+034 - esp Faction Warfare 
 035 - Fairskin Complexion 
 036 - esm Falskaar
 037 - esp Female Falmer Encounters 
@@ -70,7 +70,7 @@
 070 - Light Limit Fix
 071 - Lively Children Animation 
 072 - esp LKVM
-073 - Lucian Follower
+073 - esp Lucian Follower
 074 - Lysana Follower
 075 - Make Moonsugar for Become a skooma Dealer
 076 - esp Make moonsugar
@@ -78,7 +78,7 @@
 078 - MCM Helper
 079 - esp Midwood Ilse
 080 - Miri Follower
-081 - Moonpath to Elsweyr 
+081 - esp Moonpath to Elsweyr 
 082 - Multi-Marriage
 083 - esp Mystique Follower
 084 - NFF
@@ -103,7 +103,7 @@
 103 - esp Riverside Lodge Redux 
 104 - esp Riverside Shack
 105 - esm Roven Core
-106 - Roven Marketstall
+106 - eap Roven Marketstall
 107 - esm RSSE Children Overhaul 
 108 - esm Sailable Ship
 109 - esp SDA
@@ -246,7 +246,19 @@
 252 - esp Dibella Beauties 
 253 - esp Skyrim Sewers Patch
 254 - esp DBM ELFX Patch
-255 - 
+255 - esp LCO Snowpiont Beacon 
+256 - eap LCO Bthalft Ruins 
+257 - esp DBM Falskaar Patch
+258 - esp Additional Hearthfire Dolls Patch 
+259 - esp DBM Clockwork Patch 
+260 - esp DBM Forgotten City Patch
+261 - esp DBM Moonpath Patch 
+262 - esp LotD TCC Clockwork
+263 - esp LotD TCC Helgen
+264 - esp Fertility Mode Flower Girls
+265 - esp Fertility Mode RSChildren
+266 - 
+
 
 
 
