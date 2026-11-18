@@ -93,9 +93,9 @@
 093 - PandoraOutput
 094 - Papyrus Extender
 095 - Papyrus Util
-096 - Phenderix Elements 
+096 - esp Phenderix Elements 
 097 - Powerofthree Tweaks 
-098 - Precision 
+098 - esp Precision 
 099 - Pride of Dibella
 100 - esp Quikloot IE
 101 - esp Recorder Follower
@@ -128,7 +128,7 @@
 128 - SSE Engine Fixes
 129 - eap Take Notes
 130 - TexGen_Output
-131 - The Eyes of Beauty
+131 - esp The Eyes of Beauty
 132 - esp The Forgotten City 
 133 - esp The New Gentleman 
 134 - esp The Scarlett
@@ -136,9 +136,9 @@
 136 - esp Toymania
 137 - esp Trade & Barter 
 138 - esp Trade Routes 
-139 - TDM
+139 - esp TDM
 140 - esl True HUD
-141 - Uiextensions 
+141 - esp Uiextensions 
 142 - Unofficial Material Fix
 143 - esp USSEP
 144 - esp Voiced Books of Skyrim Part 1
@@ -146,7 +146,7 @@
 146 - esp Winstad Mine
 147 - esp Winterhold Retreat 
 148 - esp Wyrmstooth 
-148 - XP32 Extended 
+148 - esp XP32 Extended 
 148 - esm Majestic mountains 
 149 - Actor Limit Fix
 150 - esp Additional Hearthfire Dolls
@@ -285,7 +285,15 @@
 291 - esp LKVM LT01
 292 - esp DBM Trade & Barter Patch
 293 - esp DBM CCOR Patch
-294 - 
+294 - esp FNIS
+295 - esp Trade Routes Patch Falskaar 
+296 - esp Trade Routes Patch LotD
+297 - esp Trade Routes Patch Moonpath
+298 - esp Better 3rd Person Selection 
+299 - esp LotD TCC Falskaar 
+300 - esp LotD TCC Moonpath 
+301 - esp LotD TFC
+302 - 
 
 
 
