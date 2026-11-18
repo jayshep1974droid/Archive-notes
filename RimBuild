@@ -1,295 +1,56 @@
-001 - ??? Bobbing Framework 
-002 - ??? Bodyslide
-003 - esp Books of Skyrim
-004 - ??? Bugfixes SSE
-005 - esp CBBE
-006 - esm Campfire 
-007 - ??? Caranthir Tower Reborn
-008 - esp Cathedral Weathers
-009 - esp CBBE 3BA
-010 - ??? CBPC
-011 - esp Chaconne Follower 
-012 - ??? Common Clothes and Armors
-013 - ??? Common Clothing Expansion 
-014 - ??? CCOR
-015 - ??? CoS (Disabled)
-016 - ??? Convenient Horses 
-017 - ??? Crash Logger SE&AE
-018 - ??? Detailed Landscapes (Ships Replacer)
-019 - ??? Dwemer Pipework Reworked 5
-020 - esp Dynamic Activation Key
-021 - ??? Dyndolod dll NG & Scripts 
-022 - ??? Dyndolod Resources SSE
-023 - esl Dyndolod V3
-024 - ??? Dyndolod_Output
-025 - esp Elysia Follower
-026 - esp Elysium Estate
-027 - esp ECE
-028 - esp ELFX
-029 - esl Elin Follower
-030 - esp EVG Conditional Idles
-031 - esl Expressive FaceGen Morphs
-032 - ??? Expressive Facial Animation Female
-033 - ??? Expressive Facial Animation Male
-034 - esp Faction Warfare 
-035 - ??? Fairskin Complexion 
-036 - esm Falskaar
-037 - esp Female Falmer Encounters 
-038 - esp Femmequins 
-039 - esm Fertility Mode 
-040 - esm Flower Girls
-041 - ??? Free Marriage esp
-042 - esp Gildergreen Regrown 
-043 - esp Gold Master
-044 - esp Goldenglow is yours
-045 - esp Happy Little Trees
-046 - ??? HDT SMP
-047 - esp Hearthfire Multiple Adoption Expanded 
-048 - esp Hearthfire Multiple Adoption with custom home
-049 - esp Helgen Reborn 
-050 - esm High Polly Head
-051 - esp Hillgrund Survivor 
-052 - esp Hunterborn
-053 - esp Immersive Interactions
-054 - esp Immersive Sound Compendium 
-055 - ??? JContainers
-056 - esp Keep it Clean 
-057 - esp KS Hairdos
-058 - esp Lakeview Basement Noble Beds
-059 - ??? Lakeview Pool & Hot bath
-060 - esp Landlord
-061 - esp Landscape Fixes fo Grass mods
-062 - ??? Lawbringer
-063 - esp LC Buildable Noble House (Fellsburg)
-064 - esp LC Citadel 
-065 - esp Left Hand Crossing
-066 - ??? LotD Follower Room Patch
-067 - ??? LotD Curator 
-068 - ??? LotD Patches
-069 - esm LotD
-070 - ??? Light Limit Fix
-071 - ??? Lively Children Animation 
-072 - esp LKVM
-073 - esp Lucian Follower
-074 - esp Lysana Follower
-075 - esp Make Moonsugar for Become a skooma Dealer
-076 - esp Make moonsugar
-077 - esp Marriage Mod
-078 - esp MCM Helper
-079 - esp Midwood Ilse
-080 - ??? Miri Follower
-081 - esp Moonpath to Elsweyr 
-082 - ??? Multi-Marriage
-083 - esp Mystique Follower
-084 - esp NFF
-085 - esp Oakwood
-086 - esp Obis
-087 - ??? OAR
-088 - esp Ordinator 
-089 - ??? Paired Animation Improvements
-090 - esp Pandorable NPC's
-091 - esp Pandorable Serana NPC
-092 - ??? Pandora Behaviour Engine 
-093 - ??? PandoraOutput
-094 - ??? Papyrus Extender
-095 - ??? Papyrus Util
-096 - esp Phenderix Elements 
-097 - ??? Powerofthree Tweaks 
-098 - esp Precision 
-099 - ??? Pride of Dibella
-100 - esp Quikloot IE
-101 - esp Recorder Follower
-102 - ??? Remiel Follower
-103 - esp Riverside Lodge Redux 
-104 - esp Riverside Shack
-105 - esm Roven Core
-106 - eap Roven Marketstall
-107 - esm RSSE Children Overhaul 
-108 - esm Sailable Ship
-109 - esp SDA
-110 - ??? Skyland AIO
-111 - ??? Skyland Bits & Bobs
-112 - esp Undeath
-113 - esp Reputation
-114 - ??? SKSE
-115 - esp Skyrim Sewers 4
-116 - esm Skyrim Underground esm
-117 - esp SKYUI
-118 - ??? SKYUI Flasing save game Fix
-119 - esp SMIM 
-120 - esl Smoothcam
-121 - ??? Smoothcam modern camera preset
-122 - esp Sofia Follower
-123 - ??? Solstheim Reborn Raven Rock Clockwork Patch
-124 - ??? Sound Record Distributor 
-125 - esp Spaghetti Cities AIO
-126 - esp Sprigah Follower esl
-127 - ??? SSE Display Tweaks 
-128 - ??? SSE Engine Fixes
-129 - esp Take Notes
-130 - ??? TexGen_Output
-131 - esp The Eyes of Beauty
-132 - esp The Forgotten City 
-133 - esp The New Gentleman 
-134 - esp The Scarlett
-135 - esp Town of pinewatch 
-136 - esp Toymania
-137 - esp Trade & Barter 
-138 - esp Trade Routes 
-139 - esp TDM
-140 - esl True HUD
-141 - esp Uiextensions 
-142 - ??? Unofficial Material Fix
-143 - esp USSEP
-144 - esp Voiced Books of Skyrim Part 1
-145 - esp Weapons Armor Clothing and Clutter Fixes
-146 - esp Winstad Mine
-147 - esp Winterhold Retreat 
-148 - esp Wyrmstooth 
-148 - esp XP32 Extended 
-148 - esm Majestic mountains 
-149 - ??? Actor Limit Fix
-150 - esp Additional Hearthfire Dolls
-151 - ??? Address Library 
-152 - esp Aethernautics 
-153 - esp AI Overhaul 
-154 - ??? Alftand Survivor
-155 - esp Alice Follower
-156 - esp Amorous Adventures
-157 - esl Animated Ships 
-158 - ??? Animated Ships Bobbing & Motion 
-159 - ??? Animated Ships Patches 
-160 - ??? Animation Queue Fix
-161 - esm Apachii Devine Elegance 
-162 - ??? Assorted Mesh Fixes
-163 - esp Audio Overhaul 
-164 - ??? Auri Remastered Audio 
-165 - ??? Base Object Swapper 
-166 - esp Become a Skooma Dealer
-167 - esp Belethor's Sister 
-168 - ??? Better Jumping 
-169 - ??? Better Third Person Selector 
-170 - esm Beyond Skyrim Assets 
-171 - ??? Beyond Skyrim Bruma
-172 - ??? Beyond Skyrim Intergration Patch 
-173 - esp BFCO Attack Behaviour Framework 
-174 - esp Bijin NPC's
-175 - esp Bijin Warmaidens
-176 - esp Bijin Wives
-177 - esp Blackreach Railroad 
-178 - ??? Blackreach Railroad DPR Patch 
-179 - esp Blackreach Railroad Player Cabin Redone
-189 - esp Blackthorn Buildable
-190 - esp Blackthorn Clay and stone Deposits
-191 - esp Blackthorn Hearthfire Fix
-192 - esp Blackthorn Hunterborn Patch 
-193 - esp Blended Roads 
-200 - esp Caranthir Tower Reborn
-201 - ??? Cathedral Weathers
-202 - ??? CBBE 3BA
-203 - ??? CBPC
-204 - ??? Chaconne Follower
-205 - esp Common Clothes & Armor
-206 - ??? Common Clothing Expansion 
-207 - esp CCOR
-208 - ??? CoS (disabled)
-209 - esp Convenient Horses 
-210 - ??? Crash Logger 
-211 - ??? Detailed Landscapes (ship swapper)
-212 - esm Treescale
-213 - esp Majestic Mountains Moss
-214 - esm BS Heartland
-215 - esp BS DLC Patch
-216 - esm Race Compatibility 
-217 - esm LCHB Homebase
-218 - esp LotD0
-219 - esp ELFX Weathers
-220 - esp Radiant Blocker
-221 - esp LCO Framework 
-222 - esp LCO Lost Valey Redoubt 
-223 - esp Majestic Mountains
-224 - esp ELXP Exterior 
-225 - esp LCO Falkreath Watchtower
-226 - esp LCO Red Water Den
-227 - esp DBM Elfx Exteriors Patch 
-228 - esp Cradlestone Tower
-229 - esp DBM Wyrmstooth Patch
-230 - esp LCO Stebdarrs Beacon
-231 - esp DBM Undeath Patch
-231 - esp LCO Nilheim Patch
-232 - esp LCO Pinefall Bridge
-233 - esp LCO Bleakwind Buff
-234 - esp HF Lakeview PHB EX
-235 - esp LCO Moldering Ruin
-236 - esp DBM ISC Patch 
-237 - esp DBM WACCF Patch 
-238 - esp Apachii Divine Elegance Store Patch 
-239 - esp LCO Falkreath Watch Tower
-240 - esp Clockwork 
-241 - esp Lit Roadsigns
-242 - esp DBM Relic Notifications 
-243 - esp Helgen Reborn Patch 
-244 - esp LKVM Cellar & Exterior 
-245 - esp HLIO Remie
-246 - esp Fertility Mode Flower Girls
-247 - esp Fertility Mode RSChildren
-248 - esp HLIO Remie Vanilla Looks
-249 - esp HLIO Remie Relax Anywhere
-250 - esp HLIS Aethernautics 
-251 - esp Blackreach Railroad Reworked Patch
-252 - esp Dibella Beauties 
-253 - esp Skyrim Sewers Patch
-254 - esp DBM ELFX Patch
-255 - esp LCO Snowpiont Beacon 
-256 - eap LCO Bthalft Ruins 
-257 - esp DBM Falskaar Patch
-258 - esp Additional Hearthfire Dolls Patch 
-259 - esp DBM Clockwork Patch 
-260 - esp DBM Forgotten City Patch
-261 - esp DBM Moonpath Patch 
-262 - esp LotD TCC Clockwork
-263 - esp LotD TCC Helgen
-264 - esp Fertility Mode Flower Girls
-265 - esp Fertility Mode RSChildren
-266 - esp Elin Replacer
-267 - esp Character Making Extender 
-268 - esp 12 Female Brows
-269 - esp High Polly Head Vampire Fix
-270 - esp Hunterborn Campfire Patch 
-271 - esp Hunterborn Soups & Stews
-272 - esp HMA Expanded AI Tweaks Patch
-273 - esp Hearthfire Kid Last Name
-274 - esp Holy Cow
-275 - esp Generic Grass Limiter
-276 - esp RSChildren Patch BS Bruma
-277 - esp RSChildren
-278 - esp AI Overhaul Scripted 
-279 - esp DBM Keep it Clean Patch
-280 - esp DBM Obis Patch
-281 - esp DMB SMIM Patch
-282 - esp Dudes Tia Multi Marriages
-283 - esp AI Overhaul Fishing Addon
-284 - esp LotD GIY Patch
-285 - esp Free Marriage
-286 - esp Additional Hearthfire Dolls Passives Patch
-287 - esp LotD TCC Undeath
-288 - esp LotD TCC Wyrmstooth 
-289 - esp LKVMII LT01
-290 - esp Trade Routes Patch Trade & Barter
-291 - esp LKVM LT01
-292 - esp DBM Trade & Barter Patch
-293 - esp DBM CCOR Patch
-294 - esp FNIS
-295 - esp Trade Routes Patch Falskaar 
-296 - esp Trade Routes Patch LotD
-297 - esp Trade Routes Patch Moonpath
-298 - esp Better 3rd Person Selection 
-299 - esp LotD TCC Falskaar 
-300 - esp LotD TCC Moonpath 
-301 - esp LotD TFC
-302 - esp Keep it Clean Bruma Patch 
-303 - esp Keep it Clean Falskaar Patch 
-304 - esp Keep it Clean Hunterborn Soups Patch 
-305 - esp Skyland Watercolor Slo Green
-306 - esp LCO Maras Eye Den
-307 - esp Sun Daytime North MM
+# RIMBUILD — MASTER MODLIST & WALKTHROUGH HANDOVER (AE 1.7.104.0)
+* **Build Target:** Skyrim Special Edition / AE `1.7.104.0` (`RIM1`)
+* **Slot 2 Ref Count:** `198/225` (Deduplicated & Patch-Consolidated)
+* **Active Handover Pointer:** `WT_SYNC_001`
+
+---
+
+## 1. CORE FRAMEWORKS, BUGFIXES & SKSE PLUGINS (`001`–`029`)
+* **001–005:** SKSE64 (`1.7.104.0`), USSEP (`4.3.9c`), Engine Fixes, Papyrus/JContainers/MCM Helpers, Base Object Swapper, and Mesh/Sound fixes
+* **006–007:** ConsoleUtil Extended (`133569`) & Object Placement Saver (`141360`) `[QUEUED]`
+* **008–010:** SkyUI, True HUD, SmoothCam, Better Jumping/Third Person Selection, and Crash Logger SE/AE
+* **011–015:** RaceCompatibility, High Poly Head, CBBE/3BA, The New Gentleman, and Pandora Behaviour Engine output
+* **016–020:** OAR, Precision, BFCO, TDM, Dynamic Activation, Campfire, and Nether's Follower Framework (NFF)
+* **021–029:** Ordinator, Phenderix, WACCF, CCOR, Skyrim Reputation, Trade & Barter, Landlord, Take Notes, and `RIM1_CustomNames.esp`
+
+---
+
+## 2. VISUALS, LIGHTING, WEATHER & LANDSCAPES (`030`–`053`)
+* **030–033:** SMIM, Skyland AIO/Bits & Bobs, Cathedral Weathers, and ELFX (with `ELFXWeathers.esp` disabled)
+* **034–038:** Happy Little Trees, Grass Limiters, Majestic Mountains, Blended Roads, DynDOLOD v3, and Dwemer/Roadsign mods
+* **039–044:** Audio Overhaul, Immersive Sound Compendium, Animated Ships, The Scarlett, and Voiced Books of Skyrim
+* **045–053:** Apachii Divine Elegance, Common Clothes, Bijin/Pandorable/Dibella NPC overhauls, RS Children, AI Overhaul, and Radiant Blocker
+
+---
+
+## 3. WORLD EXPANSIONS, QUESTS & DUNGEONS (`054`–`077`)
+* **054–058:** Legacy of the Dragonborn (`LotD`) with full TCC patches, Beyond Skyrim: Bruma, Falskaar, and Wyrmstooth
+* **059–065:** Clockwork, Helgen Reborn, The Forgotten City, Moonpath to Elsweyr, Undeath, Midwood Isle, and Aethernautics
+* **066–077:** Caranthir Tower, Skyrim Sewers/Underground, Blackreach Railroad, Goldenglow, Lawbringer/LCO, OBIS, Amorous Adventures, and Skooma Dealer modules (CoS disabled per build lock)
+
+---
+
+## 4. HOMES, SETTLEMENTS, FAMILY & ECONOMY (`078`–`107`)
+* **078–079:** Skyrim Settlement Builder / SkyBuild (`58021`) `[QUEUED]` and Hearthfire Extended (`8450`/`112944`) with USSEP patch (`182335`) `[QUEUED]`
+* **080–085:** Hearthfire Multiple Adoptions, Fertility Mode, Flower Girls, Marriage Mod, Pinewatch, and Lakeview Extended
+* **086–099:** Oakwood, Blackthorn, LC Build Your Own Noble House, Elysium Estate, Windstad Mine, Spaghetti's Cities, Hunterborn, Keep it Clean, and Convenient Horses
+
+---
+
+## 5. CUSTOM & VANILLA FOLLOWERS (`100`–`114` | `198` Total Consolidated Refs)
+* **100–107:** Lucien, Remiel, Auri, Inigo, Serana Dialogue Add-On (SDA), Sofia, Recorder, and Chaconne
+* **108–114:** Elysia, Elin, Lysana, Miri, Mystique, Alice, and Spriggan Follower (`esl`)
+
+---
+
+## 6. WALKTHROUGH HANDOVER TRACKER (`WT_SYNC_001` — APPEND-ONLY)
+
+### `WT_SYNC_001` | SUPERSEDES=NONE | DATE=2026-11-18 | SEASON=1 | EPISODE=01 (PRE-SHOOT)
+* **TRACK A — MAP LAYER (ACTIVE WORLD STATE):**
+  * **Active Corridor:** `FALKREATH_HOLD` (`Helgen -> Pinewatch -> Lakeview Manor -> Oakwood`)
+  * **Built / Unlocked Properties:** `None` (Pinewatch bandit hideout queued as first Season 1 target; Lakeview Manor plot unbuilt)
+  * **Active Build Rules:** `SkyBuild` planter boxes at Pinewatch for early alchemy cashflow; `2-kid` safe cap per interior cell; `0` dragons spawned (Seasons 1–3 mortal arc)
+* **TRACK B — CHARACTER ROSTER LAYER:**
+  * **Protagonist (Season 1 Founder):** `Mortal Founder` (`PIN_LOC=Helgen_West_Road`, `MOOD=Determined`, `LOG_REF=[LOG-138],[LOG-165]`)
+  * **Dragonborn Ally:** `Unnamed_DB_Friend` (`PIN_LOC=Off_Grid_Dormant`, `LOG_REF=[LOG-138],[LOG-165]`)
+  * **Active Followers:** `None Recruited Yet` (`NFF` 10 slots open, `LOG_REF=[LOG-165]`)
