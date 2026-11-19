@@ -128,3 +128,9 @@
 - SEASON_5: The Rift & Dragonborn Awakening (Dragonborn enters at start of Season 5 -> Riften, Blackthorn, Dawnguard/Serana, Falskaar, Wyrmstooth, Solstheim & Dragon/Main Quest arc).
 - SEASON_6: Beyond Skyrim: Bruma (Pale Pass south of Helgen -> Bruma & Aethernautics finale).
 - NEXT_ACTION: Map Winterhold Hold & The Pale (Dawnstar) to complete Season 4 (Windhelm District) before launching Season 5 (The Rift + Dragonborn).
+[WT_SYNC_014] | ROUTE_CORRIDOR_11: SEASON_4_WINTERHOLD_HOLD & CARANTHIR_TOWER
+- SEASON_LOCK: Season 4 covers Eastmarch + Winterhold + The Pale (last 0-dragon season). Season 5 launches Dragonborn + The Rift + main map completion; Season 6 brings Dragonborn heir to Bruma.
+- WINTERHOLD_TOWN: Frozen Hearth (Landlord shares, Nelacar -> start The Black Star) -> Birna's Oddments (Landlord shares + buy Coral Dragon Claw -> unlock Yngol Barrow for Helm of Yngol in LotD) -> Jarl's Longhouse (Helm of Winterhold + 3 favours -> Thane of Winterhold; Property Manager -> shared chest).
+- COLLEGE_&_CARANTHIR_TOWER (MOD_066): Enter College of Winterhold (mortal-friendly) -> clear The Midden (Atronach Forge + pirate relic hunt), recruit Brelyna/J'zargo/Onmund -> climb to Caranthir Tower Reborn, restore tower conduits, place linked General Stores chest & claim LotD TCC relics.
+- SOUTHERN_&_WESTERN_SWEEP: Shrine of Azura -> complete The Black Star (via Nelacar) -> Frostflow Lighthouse (Sailor's Repose +10% healing buff) -> Sightless Pit -> Alftand (link Northern Blackreach Railroad station to Markarth line).
+- NEXT_ACTION: Cross west from Alftand into The Pale / Dawnstar (Mzinchaleft & Raldbthar Blackreach Railroad links, Dawnstar town, Heljarchen Hall, Waking Nightmare, Mehrunes' Razor finale & Dawnstar Sanctuary).
