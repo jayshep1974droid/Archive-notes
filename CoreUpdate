@@ -10,3 +10,8 @@
 * **Three-File Separation (`[LOG-149]`):** `CoreUpdate` holds framework counts and rules only; `Logvault_1` holds system/build logs (`[LOG-01]`–`[LOG-171]`); `RimBuild` holds the active modlist and append-only `WT_SYNC_XXX` walkthrough handovers.
 * **Walkthrough Latest-Wins Rule (`[LOG-148]`):** On project load, jump directly to `ACTIVE_WT_HANDOVER` (`WT_SYNC_001`) at the bottom of `RimBuild` and treat all lower-numbered `WT_SYNC` blocks as archived history.
 * **Execution Pace (`[LOG-73]`):** Maintain single-step execution unless multiple steps are explicitly requested.
+## FRAMEWORK DELTA OVERRIDE (SYNCED: 2026-11-19 | RANGE: [LOG-01]–[LOG-175] | SLOT 2 REF: 202/225)
+* **Manifest Override:** `Total Logs: 175` | `Slot 2 Ref: 202/225` | `Active Project File: RimBuild` (`ACTIVE_WT_HANDOVER = WT_SYNC_001`)
+* **Unconditional Boot Main Menu (`[LOG-170]`):** Always display the Main Menu immediately on boot regardless of user prompt phrasing.
+* **Conversational Brevity & Pacing Rule (`[LOG-171]`):** Keep responses to 3–5 concise lines by default. Do not echo confirmations, dump unrequested checklists, or advance multiple steps at once.
+* **6-Season Timeline Update (`[LOG-173]`):** Each season spans `+25` in-game years (total retirement window: `100–225` years).
