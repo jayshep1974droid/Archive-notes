@@ -106,3 +106,8 @@
 - SOLITUDE_SEWERS_&_UNDERGROUND (MOD_067): Enter via Solitude Docks / East Empire grate after Blue Palace loop -> clear smugglers & sewer boss -> sweep connected Solitude Skyrim Underground cavern -> deposit all LotD displays into Museum Sort Chest before boarding The Scarlett.
 - MIDWOOD_ISLE (MOD_064): Run right out of Solitude Docks before leaving Haafingar (Level 15+, 100% mortal-friendly) -> clear Sunhold & island ruins, claim LotD TCC relics & island home -> return to Solitude Docks, then depart for the Reach.
 - NEXT_ACTION: Map next chronological unplotted mods in Markarth & The Reach (Blackreach Railroad starting at Nchuand-Zel + The Forgotten City in SW Reach).
+[WT_SYNC_003_PATCH] | REACH_UNPLOTTED_MODS (BLACKREACH_RAILROAD + FORGOTTEN_CITY + SEWERS)
+- BLACKREACH_RAILROAD (MOD_068): Trigger inside Nchuand-Zel / Markarth Dwarven Railway Station (during Calcelmo stop in WT_SYNC_003) -> clear track to Blackreach Depot -> restore Dwemer train & collect LotD schematics/models (queues Alftand, Mzinchaleft & Raldbthar stations for Winterhold/Pale).
+- MARKARTH_SEWERS_&_UNDERGROUND (MOD_067): Sweep Markarth river canal grates & connected Reach Underground caverns post-Cidhna Mine for LotD relics.
+- THE_FORGOTTEN_CITY (MOD_061): Run during SW Reach loop next to Dead Crone Rock (WT_SYNC_004, Cassia courier letter) -> collect Immaculate Dwarven Armor -> persuade Arbiter for best ending -> claim LotD TCC relics & Cassia recruit.
+- NEXT_ACTION: Review & map next chronological unplotted mods in Whiterun Hold (Wyrmstooth trigger at Bannered Mare + Whiterun Sewers/Underground).
