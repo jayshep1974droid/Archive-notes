@@ -102,3 +102,7 @@
 - TIMING: End of Season 1 (post-Fellburg & western Falkreath sweep, prior to Season 2 Solitude departure).
 - WALKTHROUGH: Speak to Ku'var in Dead Man's Drink (Falkreath) -> Elsweyr Border Pass & Khajiit Caravan Camp -> Tenmar Forest & Sweetwater Cave (defeat Sload ambush, collect canopy/Sload LotD relics) -> Elsweyr Desert Dunes (defend outpost vs. Thalmor patrols) -> Assault Thalmor Airship (claim airship & Elsweyr LotD relics) -> Return to Lakeview Manor to conclude Season 1.
 - NEXT_ACTION: Review & map the next unplotted mod in chronological sequence (Solitude Sewers / Skyrim Underground & Midwood Isle in Haafingar, followed by Blackreach Railroad & The Forgotten City in Markarth).
+[WT_SYNC_002_PATCH] | HAAFINGAR_COMPLETE (SOLITUDE_SEWERS + MIDWOOD_ISLE)
+- SOLITUDE_SEWERS_&_UNDERGROUND (MOD_067): Enter via Solitude Docks / East Empire grate after Blue Palace loop -> clear smugglers & sewer boss -> sweep connected Solitude Skyrim Underground cavern -> deposit all LotD displays into Museum Sort Chest before boarding The Scarlett.
+- MIDWOOD_ISLE (MOD_064): Run right out of Solitude Docks before leaving Haafingar (Level 15+, 100% mortal-friendly) -> clear Sunhold & island ruins, claim LotD TCC relics & island home -> return to Solitude Docks, then depart for the Reach.
+- NEXT_ACTION: Map next chronological unplotted mods in Markarth & The Reach (Blackreach Railroad starting at Nchuand-Zel + The Forgotten City in SW Reach).
