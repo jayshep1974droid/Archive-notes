@@ -120,3 +120,11 @@
 - WINDHELM_SEWERS_&_UNDERGROUND (MOD_067): Enter via Windhelm canal/dock grates during WT_SYNC_011 -> clear sewer boss & connected Windhelm Underground cavern -> deposit LotD relics.
 - CLOCKWORK (MOD_059): Trigger via courier letter (Level 15+) at Velothi Mountains tunnel (next to Ansilvund/Kagrenzel in WT_SYNC_012) -> restore Clockwork Castle, unlock Travel Machine network, place linked General Stores chest & collect LotD TCC relics.
 - NEXT_ACTION: Cross north from Windhelm/Eastmarch into Winterhold Hold (Caranthir Tower Reborn, College of Winterhold, Azura's Star, Yngol Barrow Coral Claw & Alftand Blackreach Railroad station).
+[WT_SYNC_013] | LOCKED_6_SEASON_MASTER_STRUCTURE
+- SEASON_1: Falkreath District (Lakeview, Fellburg, Western Falkreath, Moonpath to Elsweyr).
+- SEASON_2: Solitude District (Haafingar, The Scarlett, Midwood Isle + Reach/Markarth/Blackreach Railroad/Forgotten City + Hjaalmarch/Windstad).
+- SEASON_3: Whiterun District (Goldenhills, Heljarchen Farm, Whiterun Strip/City/Sewers, Riverside Lodge, Helgen).
+- SEASON_4: Windhelm District (Eastmarch, Windhelm Sewers, Clockwork + Northern Holds: Winterhold & The Pale/Dawnstar; last 0-dragon season).
+- SEASON_5: The Rift & Dragonborn Awakening (Dragonborn enters at start of Season 5 -> Riften, Blackthorn, Dawnguard/Serana, Falskaar, Wyrmstooth, Solstheim & Dragon/Main Quest arc).
+- SEASON_6: Beyond Skyrim: Bruma (Pale Pass south of Helgen -> Bruma & Aethernautics finale).
+- NEXT_ACTION: Map Winterhold Hold & The Pale (Dawnstar) to complete Season 4 (Windhelm District) before launching Season 5 (The Rift + Dragonborn).
