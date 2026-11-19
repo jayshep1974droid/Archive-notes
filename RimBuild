@@ -54,3 +54,16 @@
   * **Protagonist (Season 1 Founder):** `Mortal Founder` (`PIN_LOC=Helgen_West_Road`, `MOOD=Determined`, `LOG_REF=[LOG-138],[LOG-165]`)
   * **Dragonborn Ally:** `Unnamed_DB_Friend` (`PIN_LOC=Off_Grid_Dormant`, `LOG_REF=[LOG-138],[LOG-165]`)
   * **Active Followers:** `None Recruited Yet` (`NFF` 10 slots open, `LOG_REF=[LOG-165]`)
+### ACTIVE_WT_HANDOVER: WT_SYNC_001 (UPDATED: 2026-11-19)
+* **Additional [QUEUED] Mod:** `General Stores - SE` (Nexus `4322`) + Hearthfire & LotD patches (cross-home linked crafting storage).
+* **Timeline:** `+25` years per season (`100–225` year retirement window).
+* **Season 1 Route (`Falkreath -> Lakeview -> Fellburg`):**
+  1. **Falkreath:** Recruit **Lucien** (Dead Man's Drink). Complete Jarl's mead + bandit quest & 3 favours (Berit's Ashes, Mathies' crops, Hert's firewood). Start **Helgen Reborn** up to guard recruitment. Buy **Landlord** shares via Nenya.
+  2. **Pinefall Bridge & Pinewatch:** Claim **Pinefall Bridge** (`Lawbringer`), garrison Lucien there, and swap to **Auri**. Clear Pinewatch basement and place **Rovan's Market Stall #1** outside for dungeon loot.
+  3. **Lakeview Manor & Oakwood:** Buy **Sawn Logs** (Half-Moon Mill), **Glass/Goat Horns** (Gray Pine Goods), craft **Straw from Wheat**, mine **Iron** (Embershard Mine) & **Corundum** (Knifepoint Ridge). Place **Rovan's Market Stall #2** at **Oakwood** for high-value crops (*Creep Cluster, Mora Tapinella, Scaly Pholiota, Canis Root, Imp Stool, Deathbell*). Leave Auri at Lakeview, pick up **Remiel**, and grab **Manic Elytra Nymph** west of Brittleshin Pass.
+  4. **Fellburg:** Fund town ledger buildings for passive income + clear western Falkreath corridor (*Bilegulch Mine, Peak's Shade Tower, Roadside Ruins, Ilinalta's Deep, Glenmoril Coven, Angi's Camp*).
+* **Season 2 Route (`Fellburg -> Solitude -> The Scarlett -> Windstad`):**
+  1. **Fellburg -> Dragon Bridge -> Steed Stone:** *(Corridor details queued for next session).*
+  2. **Solitude:** Unlock **LotD Museum & Safehouse** (Auryen). Complete quick town favours, buy **Landlord** shares (*Radiant Raiment, Bits & Pieces, Angeline's Aromatics*), grab **Helgen Reborn** Solitude recruit (Winking Skeever), and pick up **Wolfskull Cave / Potema** quests from Falk Firebeard (*Shield of Solitude* + LotD relics). Hold **Proudspire Manor** until entering Whiterun Hold.
+  3. **Solitude Docks (`The Scarlett`):** Restore **The Scarlett** first (hire crew + **Belrand** from Winking Skeever) for ship passive income.
+  4. **Windstad Manor & Mine (`Hjaalmarch`):** Cross bay east from Solitude Docks to build **Windstad Mine & Manor** second for passive gold + ore stockpiling.
