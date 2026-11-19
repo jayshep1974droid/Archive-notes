@@ -194,9 +194,18 @@
 * **[LOG-167] DATE=2026-11-17 | SLOT=2 | STATUS=ADDED_FOLLOWER_RESET_AND_RECRUITMENT_RULES_LOCKED | FINDING=CONFIRMED_STANDARD_FOLLOWERS_RESET_VIA_NFF_DISMISS_OR_RECYCLEACTOR_WHILE_CUSTOM_VOICED_FOLLOWERS_MUST_DISMISS_VIA_DIALOGUE_WITHOUT_RECYCLEACTOR_AND_ALL_FOLLOWERS_AUTO_RESET_ON_NEW_SAVE | SLOT2_REF=220/225**
 * **[LOG-168] DATE=2026-11-18 | SLOT=2 | STATUS=RIMBUILD_UPLOADED_AND_INITIAL_AUDIT_COMPLETED | ACTION=VERIFIED_RIMBUILD_295_LINE_UPLOAD_IDENTIFIED_17_DUPLICATE_ENTRIES_ELFX_VS_CATHEDRAL_WEATHERS_OVERLAP_AND_FALKREATH_CORRIDOR_MODS_TOWN_OF_PINEWATCH_LKVM_OAKWOOD | SLOT2_REF=220/225**
 * **[LOG-169] DATE=2026-11-18 | SLOT=2 | STATUS=VORTEX_CLEANUP_AND_INSTALL_QUEUE_CONFIRMED | ACTION=USER_CONFIRMED_DISABLING_ELFXWEATHERS_ESP_VERIFYING_HLIO_REMIE_ESP_AND_QUEUED_NEXUS_58021_141360_133569_112944_182335_FOR_INSTALLATION | SLOT2_REF=198/225**
+* **[LOG-171] DATE=2026-11-19 SLOT=0 TIER=0 RULE=CONVERSATIONAL_BREVITY_AND_SINGLE_STEP_PACE STATUS=LOCKED AUTH=pure AUDIT=2026-11-19_v7.6_AI_KV_v2**
+  * **Detail:** Enforces 3–5 line plain responses without echoing, unrequested checklists, or multi-step jumps unless explicitly requested.
+* **[LOG-172] DATE=2026-11-19 SLOT=2 TIER=1 RULE=SEASON1_WALKTHROUGH_AND_STALL_SPLIT STATUS=LOCKED SLOT2_REF=198/225**
+  * **Detail:** Season 1 route locked: Falkreath (Mead + Ashes + Crops + Wood favours; Lucien at Dead Man's Drink) -> Pinefall Bridge (Lawbringer claim; assign Lucien; swap to Auri) -> Pinewatch (clear basement; Rovan's Market Stall #1 for loot) -> Oakwood (Rovan's Market Stall #2 for crops) -> Lakeview Manor (Sawn Logs from Hert, Glass/Goat Horns from Gray Pine Goods, Wheat->Straw craft, Iron from Embershard, Corundum from Knifepoint Ridge; leave Auri at Lakeview; pick up Remiel; Manic Elytra Nymph west of Brittleshin Pass) -> Fellburg (gold ledger town build + passive income).
+* **[LOG-173] DATE=2026-11-19 SLOT=2 TIER=1 RULE=TIMELINE_EXTENDED_25YR_PER_SEASON STATUS=LOCKED SLOT2_REF=198/225**
+  * **Detail:** Extended each season by +25 years (retirement window now 100–225 years). Economy/gold collection workaround parked for review; General Stores - SE (4322 + Hearthfire/LotD patches) added to [QUEUED] installs.
+* **[LOG-174] DATE=2026-11-19 SLOT=2 TIER=1 RULE=HELGEN_REBORN_AND_SOLITUDE_SEQUENCE STATUS=LOCKED SLOT2_REF=202/225**
+  * **Detail:** Start Helgen Reborn in Season 1 up to guard recruitment; collect Solitude recruit (Winking Skeever) in Season 2. Season 2 Solitude route: Steed Stone -> Solitude (LotD Museum/Safehouse unlock, quick town favours, Landlord shares in Radiant Raiment/Bits & Pieces/Angeline's Aromatics, pick up Wolfskull Cave / Potema quests from Falk Firebeard; park Proudspire Manor until Whiterun border opens) -> Solitude Docks (build The Scarlett first + Belrand crew) -> Windstad Manor & Windstad Mine (build second; stockpile/auto-sell ore).
+* **[LOG-175] DATE=2026-11-19 SLOT=2 TIER=1 RULE=QUEUED_CORRIDOR_FELLBURG_TO_SOLITUDE STATUS=QUEUED SLOT2_REF=202/225**
+  * **Detail:** Queued next discussion: map the corridor from Fellburg -> eastern Reach border -> Dragon Bridge -> Solitude, plus next high-value Haafingar locations.
+
+**EOF MANIFEST:** `ID: VAULT_02 | Range: [LOG-01]–[LOG-175] | Count: 175 | Slot 2 Ref: 202/225`
 
 ======================================================================
 
-* **EOF Manifest: ID: VAULT_02 | Range: [LOG-01]–[LOG-169] | Count: 169 | Cumulative Total: 169 | Slot 2 Ref: 198/225**
-
-======================================================================
