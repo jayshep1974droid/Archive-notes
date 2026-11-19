@@ -115,3 +115,8 @@
 - WHITERUN_SEWERS_&_UNDERGROUND (MOD_067): Enter via Plains District canal grate during WT_SYNC_007 -> clear sewer boss & connected Whiterun Skyrim Underground wing -> deposit LotD relics into General Stores network.
 - WYRMS_TOOTH (MOD_058): Strictly DEFERRED to Season 4+ (Dragonborn Ally arc) to preserve the 0-dragon mortal lock during Seasons 1-3 (triggers via Lurius Liore at Bannered Mare -> Solitude Docks).
 - NEXT_ACTION: Review & map next chronological unplotted mods in Eastmarch (Windhelm Sewers/Underground + Clockwork in Velothi Mountains) before moving into Winterhold Hold.
+[WT_SYNC_012_PATCH] | EASTMARCH_UNPLOTTED_MODS & SEASON_3/4_ALIGNMENT
+- SEASON_ALIGNMENT: Currently in Season 2/3 Mortal Dynasty Arc (0 dragons). Season 3 anchors Dawnguard / Serana (SDA); Season 4 activates Dragons + Wyrmstooth (post-Serana).
+- WINDHELM_SEWERS_&_UNDERGROUND (MOD_067): Enter via Windhelm canal/dock grates during WT_SYNC_011 -> clear sewer boss & connected Windhelm Underground cavern -> deposit LotD relics.
+- CLOCKWORK (MOD_059): Trigger via courier letter (Level 15+) at Velothi Mountains tunnel (next to Ansilvund/Kagrenzel in WT_SYNC_012) -> restore Clockwork Castle, unlock Travel Machine network, place linked General Stores chest & collect LotD TCC relics.
+- NEXT_ACTION: Cross north from Windhelm/Eastmarch into Winterhold Hold (Caranthir Tower Reborn, College of Winterhold, Azura's Star, Yngol Barrow Coral Claw & Alftand Blackreach Railroad station).
