@@ -237,3 +237,11 @@ CUSTOM_MOD_BLUEPRINT_2026_11_23:
   * TARGET_FILTER_&_RADIUS: Instant single-pass scan (0.01s, no loop) within 2,000 game units (~Lakeview interior / camp radius), restricted strictly to CurrentFollowerFaction + PlayerMarriedFaction + BYOHRelationshipAdoptionFaction (followers, spouse, and kids only).
   * FIXED TABLE ACTIVATOR ("Set the Table"): Placeable tabletop platter/basket ACTI (via SkyBuild/Jaxonz) -> checks target hunger (skips if Hunger == 0), pulls meals from Vault_Cooking, runs 90s real-time (~30m in-game) Sit-and-Eat AI package at table chairs, and resets hunger to 0.
   * MOVABLE PICNIC KIT: Inventory MISC item using existing vanilla/AE rug + basket + food clutter meshes -> drop outdoors to spawn ground picnic blanket + sit markers for hungry followers/kids -> [Pack Up Picnic] returns kit to bag.
+STATE_SYNC: WT_SYNC_036 | SLOT2_REF=225/225
+CUSTOM_MOD_BLUEPRINT_2026_11_23:
+- MOD_NAME: GlobalVault.esp (ESL-flagged, zero background polling, zero vanilla furniture edits).
+- SHARED_PANTRY_&_DINING_MODULE:
+  * Linked directly to Vault_Cooking (Shared Pantry) inside GlobalVaultHoldCell.
+  * SKYBUILD_MEAL_PRESETS: Build & save clean table + meal layouts in SkyBuild (Table_Clean, Table_Chicken, Table_Beef, Table_Fish) -> extract exact relative X/Y/Z offsets so GlobalVault's tabletop activator spawns matching plates/food dynamically from Vault_Cooking stock and clears them afterward.
+  * TARGET_FILTER_&_RADIUS: Instant 0.01s single-pass scan within 2,000 units (~Lakeview / camp radius), restricted strictly to CurrentFollowerFaction + PlayerMarriedFaction + BYOHRelationshipAdoptionFaction (followers, spouse, kids only; skips if Hunger == 0).
+  * FIXED_&_MOVABLE: Tabletop platter/basket ACTI for house dining tables + portable Picnic Meal Kit MISC item (vanilla/AE rug + basket + sit markers) with [Pack Up Picnic] return to bag.
