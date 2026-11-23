@@ -1,8 +1,23 @@
-brilliant, i was thinking more that as soon as
-you "e" on it, it gives you a small menu to choose
-all, smelter, forge ext. then being able to choose
-as you normally choose each or taking all in that section?
+this is going to be so cool! we should start a
+new project for creating "mods".
 
-we might not be able to get the smelter to draw in
-what is relevant, but we might be able to split it
-regardless
+im sur you'll see where im going after the next few 
+questions
+
+we will be able to give the option to add all to storage,
+or add, smelter items, forge items ext to storage for
+if the player only wants to add specific items to the 
+storage?
+
+if yes
+the forge or smelter when triggered with e brings up a menu,
+can we add to that menu?
+
+if yes
+can we add to that menu saying maybe "use storage items"
+that if they use it must add it to their inventory.
+but it has to ask on exit maybe if they want to put all 
+applicable items back?
+
+or is this where the scripts become heavy?
+because it will still only run when it is triggered...
