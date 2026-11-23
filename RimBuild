@@ -245,3 +245,10 @@ CUSTOM_MOD_BLUEPRINT_2026_11_23:
   * SKYBUILD_MEAL_PRESETS: Build & save clean table + meal layouts in SkyBuild (Table_Clean, Table_Chicken, Table_Beef, Table_Fish) -> extract exact relative X/Y/Z offsets so GlobalVault's tabletop activator spawns matching plates/food dynamically from Vault_Cooking stock and clears them afterward.
   * TARGET_FILTER_&_RADIUS: Instant 0.01s single-pass scan within 2,000 units (~Lakeview / camp radius), restricted strictly to CurrentFollowerFaction + PlayerMarriedFaction + BYOHRelationshipAdoptionFaction (followers, spouse, kids only; skips if Hunger == 0).
   * FIXED_&_MOVABLE: Tabletop platter/basket ACTI for house dining tables + portable Picnic Meal Kit MISC item (vanilla/AE rug + basket + sit markers) with [Pack Up Picnic] return to bag.
+STATE_SYNC: WT_SYNC_037_CLEAN | SUPERSEDES=WT_SYNC_023..036 | SLOT2_REF=205/225
+
+SESSION_DECISIONS_&_TRIM_2026_11_23:
+- SETUP & MAP: Skip cart/Helgen via console commands; audit CoMAP addons and use FWMF with paper map and Atlas Map Markers.
+- ECONOMY & PROPERTY: Retain Trade & Barter, Trade Routes, Real Estate Continued, and Fiefdoms while trimming redundant shacks and legacy world-storage add-ons.
+- FOLLOWERS & CORE: Streamline active follower rosters, prioritize Skyrim Audiobooks TTS, and standardize on SkyBuild and Pack Forge.
+- GLOBALVAULT.ESP BLUEPRINT: ESL-flagged plugin featuring zero polling and zero vanilla cell edits, utilizing 10 master containers in a dedicated holding cell (`Vault_Smithing`, `Vault_Alchemy`, `Vault_Enchanter`, `Vault_Cooking`, `Vault_Wardrobe`, `Vault_Weapons`, `Vault_LOTD_Relics`, `Vault_Treasury`, `Vault_Books`, `Vault_General`), permanent proxy chests, household dining/picnic automation, and chapel/funeral service scripting.
