@@ -246,7 +246,6 @@ CUSTOM_MOD_BLUEPRINT_2026_11_23:
   * TARGET_FILTER_&_RADIUS: Instant 0.01s single-pass scan within 2,000 units (~Lakeview / camp radius), restricted strictly to CurrentFollowerFaction + PlayerMarriedFaction + BYOHRelationshipAdoptionFaction (followers, spouse, kids only; skips if Hunger == 0).
   * FIXED_&_MOVABLE: Tabletop platter/basket ACTI for house dining tables + portable Picnic Meal Kit MISC item (vanilla/AE rug + basket + sit markers) with [Pack Up Picnic] return to bag.
 STATE_SYNC: WT_SYNC_037_CLEAN | SUPERSEDES=WT_SYNC_023..036 | SLOT2_REF=205/225
-
 SESSION_DECISIONS_&_TRIM_2026_11_23:
 - SETUP & MAP: Skip cart/Helgen via console commands; audit CoMAP addons and use FWMF with paper map and Atlas Map Markers.
 - ECONOMY & PROPERTY: Retain Trade & Barter, Trade Routes, Real Estate Continued, and Fiefdoms while trimming redundant shacks and legacy world-storage add-ons.
