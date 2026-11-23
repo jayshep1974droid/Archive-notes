@@ -189,3 +189,9 @@ ACTIVE_SESSION_NOTES_2026_11_23:
 - FOLLOWERS_&_MARRIAGE: Audit standalone custom followers—keep quest/dialogue stars (Recorder, etc.), trim generic non-NFF followers; use built-in sandbox or My Home Is Your Home (MHIYH) for house/business residents; check exact marriage mod .esp in Vortex for dialogue/power trigger.
 - CORE_KEEPERS: Keep Skyrim Audiobooks TTS on priority fix list (SAPI/INI path check) for episode narration; keep SkyBuild + Pack Forge (198905) over EIS QuickBuild for full cross-mod object importing.
 - VERIFY_QUEUE_ON_PC: (1) GS CraftableCloudStorage Smelter Mystic Keys + disable world-station plugins; (2) Goldenhills ccvsvsse004-farms.esl + HeljarchenFarm.esp; (3) SKSE crash-*.log at Windhelm SW river V-bend; (4) Conflicting Lakeview pre-furnish plugin vs Lakeview Extended; (5) Amorous Adventures FG plugin + Pandora check; (6) FallrimTools ReSaver + Papyrus.0.log check.
+STATE_SYNC: WT_SYNC_027 | SLOT2_REF=225/225
+CUSTOM_MOD_BLUEPRINT_2026_11_23:
+- MOD_NAME: GlobalVault.esp (ESL-flagged, zero background polling, zero vanilla furniture edits).
+- STATION_HOOK: Player Alias OnSit/OnGetUp + Crafting Menu hook detects workbench keyword (Forge, Smelter, Tanning Rack, Alchemy, Enchanter, Cookpot) -> prompts "Use Global Vault materials?" (pulls matching category vault on Yes) -> on station exit prompts "Store materials back to Global Vault?" (returns matching KYWD/INGR/SLGM items on Yes).
+- CHESTS_&_DELIVERY: Supports both permanent world-placed Proxy Chests (SkyBuild/Jaxonz) AND 1x portable Global Vault Chest Kit (auto-added to inventory on load + craftable; drop to spawn, click [Pick Up / Pack Chest] in E-menu to pack back into bag).
+- BUILD_TOOLS: SSEEdit (CELL, CONT x5, MESG x3, MISC kit, ACTI proxy, COBJ, Player Quest/Alias) + external PapyrusCompiler.exe (with SKSE / PO3 Extender headers).
