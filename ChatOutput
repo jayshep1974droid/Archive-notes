@@ -1,3 +1,11 @@
-cant we just have a count in trigger, walkin type of
-trigger. if the walkouts=walkins then lights off.
-no countinues checking?
+can we build those 2 triggers in to add or subtract 
+within the same way?
+
+good catch by the way, that room lights would have never
+work right atfer that! also, for if we decide to share it
+this should all be in a fomod in the end. someone might have
+something it clashes with or they simply dont want eveything.
+
+so we should put the option to enable or disable all we are 
+adding. if one requires another it will automatically select
+the required as well type if thing.
