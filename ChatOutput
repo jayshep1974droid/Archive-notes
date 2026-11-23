@@ -1,23 +1,11 @@
-this is going to be so cool! we should start a
-new project for creating "mods".
+we could use a "movable" one yes. thats actually 
+brilliant dor the places you dont want to leave a
+chest. but we want those you can leave
 
-im sur you'll see where im going after the next few 
-questions
-
-we will be able to give the option to add all to storage,
-or add, smelter items, forge items ext to storage for
-if the player only wants to add specific items to the 
-storage?
-
-if yes
-the forge or smelter when triggered with e brings up a menu,
-can we add to that menu?
-
-if yes
-can we add to that menu saying maybe "use storage items"
-that if they use it must add it to their inventory.
-but it has to ask on exit maybe if they want to put all 
-applicable items back?
-
-or is this where the scripts become heavy?
-because it will still only run when it is triggered...
+my thinking was actually to use the forge or taning rack ext.
+menu trigger, bit add an additional menu that asks if you want
+to use your global storage to craft. if you choose yes it adds
+the relavant items to your inventory, when you exit the taning 
+rack or what ever crafting station it should ask if you want to
+store those items relavant to the crafting station back to your
+global storage?
