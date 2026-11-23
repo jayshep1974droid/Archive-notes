@@ -1,6 +1,23 @@
-the new mods for books and reading
-self made books the audio tts version says
-it can edit or open a file required. the error
-is before the menu initialise, so i can choose 
-to bypass it. but rather disabled them for now
-cant remember what file its trying to access or open
+the following is observation, dont know if there
+is a problem yet
+
+amorious adventures is not triggering flower girls
+there is a option to go to a private place after the 
+first section, but fades to black if the first section 
+is complete. haven't tested flower girls at all.
+
+there was a point where the memory started bloating,
+i say it this way because i dont know how to explain 
+it otherwise. first thought it was pets ot the amount
+of followers. but tested it and still does the same.
+it tend to, over time, take longer to load the area or
+space. even causing lag. it was not like that in the
+beginning. it even cause a ctd that didn't trigger the 
+crash logger and another time it disabled all the plugins
+within vortex. my fertility is set to only the player and 
+updates every 24hrs, i presume its ingame time. and even set
+my beth app to medium from ultra and it still did it. but 
+at the end of the same day i went from fine to restarting 3
+or 4 times.
+
+the only thing that came afterwards was the general stores mods
