@@ -1,11 +1,7 @@
-question, we've got sseedit. if we want to create our own
-mod like type thing like the general stores global chests, 
-can we use sseedit to create it. im thinking the same type
-work like we did on the framework, so starting empty if you 
-place one, you can add and ot will save what i currently in 
-the global chest. the chests is only a visual of the same space
-and it only opens it, saves it or if nothing has changed it simply
-closes it. if there is changes is saves it again. the actual visual 
-we can use the vanilla look or work on a visual later.
+fabulous, and just for info ill use an external
+papyrus script compiler 
 
-are you following? no continues scanning or big scripts...
+next question, the game naturally add "tags" to identify
+what is craft materials for which station?
+
+or how does that part work currently?
