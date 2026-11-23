@@ -229,3 +229,11 @@ CUSTOM_MOD_BLUEPRINT_2026_11_23:
 - PACKAGING_&_REUSE: Bundle GlobalVault.esp + Scripts\*.pex into GlobalVault_v1.0.zip for one-click drag-and-drop installation in Vortex on any future build. Save SSEEdit property redirects (RE - Real Estate, Fiefdoms, Farms) into a separate reusable GlobalVault_PropertyRedirects.esp .zip patch.
 - SHARED_VAULT_CELL (9 Master Containers in GlobalVaultHoldCell): Vault_Smithing, Vault_Alchemy, Vault_Enchanter, Vault_Cooking, Vault_Wardrobe, Vault_Weapons, Vault_LOTD_Relics, Vault_Treasury (Septims 0000000F), Vault_General.
 - INTERACTION_&_SAFETY: OnSit/OnGetUp station prompt (Yes/No pull & return) + permanent placed Proxy Chests + 1x portable Global Vault Chest Kit ([Pick Up / Pack Chest] in E-menu) + Player.IsEquipped() exclusion.
+STATE_SYNC: WT_SYNC_035 | SLOT2_REF=225/225
+CUSTOM_MOD_BLUEPRINT_2026_11_23:
+- MOD_NAME: GlobalVault.esp (ESL-flagged, zero background polling, zero vanilla furniture edits).
+- SHARED_PANTRY_&_DINING_MODULE:
+  * Linked directly to Vault_Cooking (Shared Pantry) inside GlobalVaultHoldCell.
+  * TARGET_FILTER_&_RADIUS: Instant single-pass scan (0.01s, no loop) within 2,000 game units (~Lakeview interior / camp radius), restricted strictly to CurrentFollowerFaction + PlayerMarriedFaction + BYOHRelationshipAdoptionFaction (followers, spouse, and kids only).
+  * FIXED TABLE ACTIVATOR ("Set the Table"): Placeable tabletop platter/basket ACTI (via SkyBuild/Jaxonz) -> checks target hunger (skips if Hunger == 0), pulls meals from Vault_Cooking, runs 90s real-time (~30m in-game) Sit-and-Eat AI package at table chairs, and resets hunger to 0.
+  * MOVABLE PICNIC KIT: Inventory MISC item using existing vanilla/AE rug + basket + food clutter meshes -> drop outdoors to spawn ground picnic blanket + sit markers for hungry followers/kids -> [Pack Up Picnic] returns kit to bag.
