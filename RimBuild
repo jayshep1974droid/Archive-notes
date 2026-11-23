@@ -195,3 +195,16 @@ CUSTOM_MOD_BLUEPRINT_2026_11_23:
 - STATION_HOOK: Player Alias OnSit/OnGetUp + Crafting Menu hook detects workbench keyword (Forge, Smelter, Tanning Rack, Alchemy, Enchanter, Cookpot) -> prompts "Use Global Vault materials?" (pulls matching category vault on Yes) -> on station exit prompts "Store materials back to Global Vault?" (returns matching KYWD/INGR/SLGM items on Yes).
 - CHESTS_&_DELIVERY: Supports both permanent world-placed Proxy Chests (SkyBuild/Jaxonz) AND 1x portable Global Vault Chest Kit (auto-added to inventory on load + craftable; drop to spawn, click [Pick Up / Pack Chest] in E-menu to pack back into bag).
 - BUILD_TOOLS: SSEEdit (CELL, CONT x5, MESG x3, MISC kit, ACTI proxy, COBJ, Player Quest/Alias) + external PapyrusCompiler.exe (with SKSE / PO3 Extender headers).
+STATE_SYNC: WT_SYNC_028 | SLOT2_REF=225/225
+CUSTOM_MOD_BLUEPRINT_2026_11_23:
+- MOD_NAME: GlobalVault.esp (ESL-flagged, zero background polling, zero vanilla furniture edits).
+- SHARED_VAULT_CELL (8 Master Containers in GlobalVaultHoldCell):
+  1. Vault_Smithing (ores/ingots/pelts/leather/gems/wood -> Forge/Smelter/Tanning/Bench/Grindstone prompt)
+  2. Vault_Alchemy (INGR -> Alchemy Lab prompt)
+  3. Vault_Enchanter (SLGM + unequipped disenchantable gear -> Arcane Enchanter prompt)
+  4. Vault_Cooking (food/ingredients -> Cookpot/Oven prompt)
+  5. Vault_Wardrobe (clothing/armor/jewelry -> Chest menu)
+  6. Vault_Weapons (weapons/shields/ammo -> Chest menu)
+  7. Vault_LOTD_Relics (DBM_ relics/displays -> Chest menu & LOTD sort)
+  8. Vault_General (books/scrolls/potions/misc -> Chest menu)
+- SAFETY_&_ROLLOUT: Built-in Player.IsEquipped() exclusion so equipped gear is never pulled on return-sort; supports permanent placed Proxy Chests + 1x portable Global Vault Chest Kit (drop to spawn, [Pick Up / Pack Chest] in E-menu). Rollout: build & test core crafting vaults first, then enable Wardrobe/Weapons/LOTD containers in same .esp.
