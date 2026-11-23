@@ -1,6 +1,3 @@
-you can commit all we discussed.
-can we effect lights with triggers? 
-within the house or property, for any 
-npc that walks in at night. or maybe 
-automatic? when the room is empty is 
-off type of thing?
+cant we just have a count in trigger, walkin type of
+trigger. if the walkouts=walkins then lights off.
+no countinues checking?
