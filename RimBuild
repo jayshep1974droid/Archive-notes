@@ -301,3 +301,23 @@ STATUS: MODULE_G_VANILLA_GRAVEYARD_ARCHITECTURE_COMMITTED
   * Fires the unified "Call to Pay Respects" (GV_PayRespectsPackage) routing household, spouse, kids, and followers from pews to the new grave for SetLookAt, prayer/mourning idles, and archetype farewells (15s hold, zero polling).
 - Future Visual Patches: Gravestone ACTIs isolate model paths (MODL) so optional FOMOD replacer patches for popular graveyard mods can be added later without touching scripts or plot records.
 ================================================================================
+================================================================================
+TIMESTAMP_ID: WT_SYNC_046 | DATE: 2026-11-24 | TARGET: GlobalVault_FOMOD_Suite
+STATUS: MODULE_I_DYNAMIC_SET_TABLE_COMMITTED
+================================================================================
+[MODULE_I: STORAGE-DRIVEN "SET TABLE" & AUTO-COOKING]
+- Storage-Dependent Menu (MESG + CTDA): Activating "Set Table" checks Vault_Food inventory and dynamically displays ONLY meal options whose prepared food OR raw cooking ingredients are currently in stock (e.g., Roast Dinner, Stew & Bread, Pastries & Wine, Full Banquet, or Empty Larder fallback).
+- On-Demand Auto-Cook: Consumes prepared dishes first or auto-cooks from raw ingredients in Vault_Food at the moment "Set Table" is chosen, enabling the matching table platters/goblets.
+- Spouse Sandbox Freedom: Keeps spouse sandbox packages unrestricted so she remains free to use Alchemy, Enchanting, and Gear crafting stations around the home.
+================================================================================
+================================================================================
+TIMESTAMP_ID: WT_SYNC_047 | DATE: 2026-11-24 | TARGET: GlobalVault_FOMOD_Suite
+STATUS: MODULE_I_SCHEDULED_SILENT_MEALTIMES_COMMITTED
+================================================================================
+[MODULE_I_REFINEMENT: SILENT_BACKGROUND_MEAL_SCHEDULER]
+- Hunger Architecture: Relies on Skyrim's built-in Survival Mode for player hunger (no third-party hunger mod required; NPCs lack native hunger meters).
+- Zero-Polling Trigger (2 Daily Mealtimes):
+  * Driven strictly by native AI Package Schedule windows (GameHour 08:00-09:00 Morning Meal & 18:30-19:30 Evening Supper) + OnCellLoad check—no background loops or visible player menus.
+  * When either window activates, GV_SpouseSetTablePackage's OnBegin fragment silently inspects Vault_Food, auto-selects the best available meal from prepared dishes or raw stock, consumes the stock, and populates the dining table.
+  * Outside meal windows, spouse sandbox remains completely free for Alchemy, Enchanting, and Gear crafting.
+================================================================================
