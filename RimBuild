@@ -290,3 +290,14 @@ STATUS: MODULES_G_&_H_COMMITTED (SSEEdit + Standalone Papyrus | Zero CK | Zero P
   * Vault_PublisherProfits container (GlobalVaultHoldCell / strongbox) receives passive royalties calculated on-demand (zero polling).
   * Publisher Ledger BOOK uses native <Global=...> text replacement to display Books Published, Daily Rate, Pending Gold, and Lifetime Revenue directly on the book page.
 ================================================================================
+================================================================================
+TIMESTAMP_ID: WT_SYNC_045 | DATE: 2026-11-24 | TARGET: GlobalVault_FOMOD_Suite
+STATUS: MODULE_G_VANILLA_GRAVEYARD_ARCHITECTURE_COMMITTED
+================================================================================
+[MODULE_G_REFINEMENT: VANILLA_FIRST_GRAVEYARD_&_MOD_REPLACER_HOOKS]
+- Zero-Dependency Base: Uses native vanilla Skyrim gravestones (e.g., Riften/Windhelm/Solitude gravestone NIFs), dirt mounds, and stone graveyard borders out of the box—no external mod required to run.
+- Sequential Plot & Ceremony Flow:
+  * SkyBuild-placed GravePlotMarkers beside the home Temple enable sequential vanilla grave mounds + engraved gravestone ACTIs (<Alias=DeceasedAlias> nameplate) upon funeral completion.
+  * Fires the unified "Call to Pay Respects" (GV_PayRespectsPackage) routing household, spouse, kids, and followers from pews to the new grave for SetLookAt, prayer/mourning idles, and archetype farewells (15s hold, zero polling).
+- Future Visual Patches: Gravestone ACTIs isolate model paths (MODL) so optional FOMOD replacer patches for popular graveyard mods can be added later without touching scripts or plot records.
+================================================================================
