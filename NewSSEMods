@@ -1,0 +1,80 @@
+================================================================================
+PROJECT_ID: NewSSEMods | TITLE: New SSE Mods (GlobalVault_FOMOD_Suite)
+DATE: 2026-11-24 | SYNC_RANGE: WT_SYNC_038_TO_054_CONSOLIDATED
+PIPELINE: SSEEdit + Standalone PapyrusCompiler.exe (ZERO Creation Kit | ZERO Polling)
+STATUS: ISOLATED_FROM_RIMBUILD (Ready for Slot 3/4 Multi-Project Load)
+================================================================================
+[GLOBAL_ARCHITECTURE_&_FOMOD_RULES]
+- Modular ESL-Flagged Plugins + ModuleConfig.xml Installer:
+  * GlobalVault_Core.esp: Auto-selected whenever any module is checked (holds shared Keywords, GlobalVariables, 10 empty-start holding-cell containers, and shared scripts).
+  * Enforced Dependency Chain: Selecting Module C (Display Observer) OR Module H (Publisher) automatically enforces Module D (Personality Engine) + GlobalVault_Core.esp.
+- Relative-Offset Blueprint Spawning (Location-Independent):
+  * All custom buildings (Temple/Church, Graveyard, Publisher, Treasury Vault, Heirloom Museum) are designed once in SkyBuild / Object Placement Saver, converted to relative offsets (dX, dY, dZ, dRotZ) from a root Drafting Table AnchorRef, and spawned/rotated via PlaceAtMe + SetPosition/SetAngle anywhere in Skyrim (never locked to Lakeview or fixed world cells).
+- Zero-Polling Enforcement: All systems run strictly on native engine events (OnActivate, OnTriggerEnter/Leave, OnItemAdded/Removed, OnCellLoad/Detach, OnRead, OnDeath, Package OnBegin/OnEnd)—zero OnUpdate loops.
+
+[CORE_00: GLOBAL_VAULT_ANTI_CHEAT_LEDGER]
+- Empty-Start Rule: All 10 holding-cell containers initialize strictly empty (zero pre-stocked loot).
+- Legitimate-Acquisition Guard: Rejects unplayable/hidden items (!akBaseItem.IsPlayable()) and optionally bounces console-spawned (player.additem) items lacking a valid world/loot/craft/trade acquisition tag.
+- Gated Treasure Rule: Standard Global Vault chest rejects Septims, Gold Ingots, and Flawless Gems until Module J's Exterior Treasury Vault is placed.
+
+[MODULE_A: SIT_&_READ_CHAIR]
+- Custom FURN chair linked to Vault_Books; OnActivate triggers IdleBook_Reading + .xwm TTS audio while GetSitState() == 3; OnExitFurniture stops audio immediately.
+
+[MODULE_B: 5_TIER_SOUL_GEM_COMBINER]
+- Custom FURN workbench (GV_SoulGemTableKW) + Vault_Enchanter pull/return link; separate Empty->Empty & Filled->Filled COBJ recipes:
+  * T1: 2x Petty + 1x Frostbite Venom -> 1x Lesser
+  * T2: 3x Lesser + 1x Goat Horns -> 1x Common
+  * T3: 3x Common + 1x Giant's Toe -> 1x Greater
+  * T4: 4x Greater + 1x Troll Skull -> 1x Grand
+  * T5: 5x Grand + 1x Wooden Sword + 1x Child's Doll -> 1x Black
+
+[MODULE_C: DISPLAY_OBSERVER] (Requires Module D)
+- Unified keyword GV_DisplayObserveKW (Paintings, Trophies, Statues, Weapons, Mannequins); 1 NPC per FURN slot + GV_LastObservationTime cooldown (45-60s).
+- [DEFERRED / ON HOLD]: Top-Left HUD companion stat/milestone notifications (not committed).
+
+[MODULE_D: HOUSEHOLD_&_PERSONALITY_DIALOGUE_ENGINE]
+- 5 Personality Archetypes (Warrior/Pragmatic, Scholar/Mage, Noble/Proud, Rogue/Cynical, Warm/Family) filtered via AIDT, VTYP, and CLAS.
+- Quest Aliases (SpouseAlias, Child1Alias, Child2Alias) render <Alias=...> names in subtitles with vanilla VTYP / optional .xwm voice lines; GV_LastGreetTime (10-15 min real-time cooldown).
+
+[MODULE_E: DOORWAY_CLEARANCE_PRIVATE_ROOMS_&_CINEMATIC_FRAMING]
+- Doorway/Station Clearance: Blocks greetings/idles within 300 units of Doors/LoadDoors and 200 units of Crafting Stations; Keep-Clear markers nudge lingering NPCs to open-room anchors; household sandbox locked to open-room markers (Radius 512).
+- Two-Tier Private Room Guards (OnTriggerEnter):
+  * Master Bedroom (GV_MasterRoomGuard): Allows ONLY PlayerRef + Spouse (PlayerMarriedFaction); redirects children, staff, and followers.
+  * Kids' Bedroom (GV_KidsRoomGuard): Allows ONLY PlayerRef + Spouse + Adopted Children (BYOHRelationshipAdoptionFaction); redirects staff and followers.
+- Video Capture Framing: GMST overrides (fDialogueSoftMaxDist 180-220, fBumpReactionIdealDistance 130-150) + event-driven step-back (~140 units, NavMesh/door-checked) + SetLookAt(PlayerRef, true) eye-contact lock.
+
+[MODULE_F: WALK-IN_/_WALK-OUT_AUTO_LIGHTING]
+- Event-driven iOccupants counter on ACTI room trigger: OnTriggerEnter (+1, lights ON if night/indoors + registers OnDeath watch), OnTriggerLeave (-1, lights OFF if <= 0), OnDeath (-1), OnCellDetach (hard reset 0 & lights OFF); GV_LightsForceOn video override.
+
+[MODULE_G: HEARTHFIRE_TEMPLE_CHURCH_FUNERAL_&_VANILLA_GRAVEYARD]
+- Hearthfire-stage construction from SkyBuild Relative-Offset Blueprint + Drafting Table (GV_BuildChurchKW).
+- Priest/Acolyte eulogy (Say()) + Memorial Urn/Coffin trigger enables sequential vanilla Grave Mound + Engraved Gravestone ACTI (<Alias=DeceasedAlias> nameplate; isolated MODL paths for future graveyard mod replacer patches).
+- Unified "Call to Pay Respects" (GV_PayRespectsPackage) routes household, spouse, kids, and followers from pews to the new grave for SetLookAt, prayer/mourning idles, and archetype farewells (15s hold).
+
+[MODULE_H: HEARTHFIRE_PUBLISHER_BOOKBINDER_&_LIBRARY_WING] (Requires Module D)
+- Deed & Build: Purchase GV_PublisherDeed from existing shop merchant chest (Belethor/Bits & Pieces/Urag); unlocks Hearthfire Drafting Table build (GV_BuildPublisherKW).
+- Staffing (Zero New NPCs): Gated behind GV_PublisherBuilt == 1; hires existing vanilla citizen/scholar into ReferenceAlias with VendorItemBook + GV_JournalKW Buy/Sell FLST.
+- Bookbinding Service: Pay 100 Septims + submit journal -> stored in PublisherBackroomChest with GV_PublishReadyTime = GetCurrentGameTime() + 2.0 (2 in-game days); returns original journal + hardbound shelf-ready BOOK.
+- 50-Book Shelf & 2,500g Library Wing: GV_PublisherDisplayShelf capped at 50 books (boosts daily rate); reaching GV_PublisherTotalEarned >= 2500 unlocks Hearthfire Back-Room Library wing (with Opposite Enable Parent wall opener).
+- Paid Reading Chairs: Public chairs where NPCs sit, play IdleBook_Reading, and deposit 25 Septims (GV_LibrarySeatFee) into Vault_PublisherProfits.
+- Live Ledger, Book Popularity & Property Sale:
+  * Publisher Ledger BOOK (<Global=...> tags) tracks royalties, reads, and personality-driven Book Popularity across two categories (Most Bought via OnItemRemoved & Most Read via chair OnActivate).
+  * Property Sale: Buyout = 35,000 + (GV_PublisherDailyRate * 365); transfers proprietorship to hired bookbinder (GV_PublisherOwned = 0).
+
+[MODULE_I: SILENT_SCHEDULED_"SET_TABLE"_&_LARDER_AUTO-COOK]
+- Relies on built-in Survival Mode for player hunger; driven by native AI Package Schedule windows (08:00-09:00 Morning Meal & 18:30-19:30 Evening Supper) + OnCellLoad.
+- Package OnBegin silently inspects Vault_Food, prioritizes prepared dishes or auto-cooks from raw stock in Vault_Food, and populates the dining table with zero popup menus—leaving spouse sandbox free for Alchemy, Enchanting, and Gear crafting outside meal hours.
+
+[MODULE_J: EXTERIOR_TREASURY_VAULT_NET-WORTH_LEDGER_&_POWER]
+- Markarth stone & gilded metal architecture; single-vault enforcement (GV_TreasuryVaultBuilt == 1 blocks second vault).
+- 6-Chamber Visual Auto-Fill (5,000,000 Total Cap): Main Hub (4 player-only doors) + 5 surrounding wings (Wings 1-4 @ 1,000,000 each + Wings 5-6 @ 500,000 each); static fill tiers in 2 large basins (Septims & Flawless Gems) + side ingot racks update only on deposit/withdraw.
+- Net-Worth Ledger BOOK: Uses patch-free Game.GetFormFromFile runtime lookups for vanilla/Hearthfire/CC homes + optional GlobalVault estates to display Treasury Worth, Property Worth, and Total Net Worth.
+- Treasury Lesser Power (SPEL + MESG): Preset Deposit & Withdraw tiers (2,000 | 5,000 | 10,000 | 20,000 | 50,000 | 100,000 Septims + carried Gold Ingots & Flawless Gems); core balances isolated for future Banking System add-on.
+
+[MODULE_K: FAMILY_HEIRLOOM_PRIVATE_MUSEUM_&_CROSS-SAVE_LINEAGE]
+- Permanent Display Lock: Enshrined weapons, armor, jewelry, and trophies lock permanently via BlockActivation(true); displayed books are read-only in-place for PlayerRef and unstealable by NPCs.
+- External Lineage File & Multi-Generation Back-Dating:
+  * Persists enshrined items and accumulated age (StoredBaseAge + CurrentGameDaysPassed, updated on sleep/wait/display interaction) to Data\SKSE\Plugins\GlobalVault_Heirlooms.json (via PapyrusUtil/JContainers).
+  * Importing heirlooms on a New Game back-dates each item's placement date prior to 17 Last Seed, 4E 201, stepping further back across every subsequent restart (Playthrough 2, 3, 4, 5+).
+  * Heirloom Journals use relative interior phrasing ("Day 4", "Week 3", "Month 2") with dynamically back-dated Start Date -> Death/End Date rendered on cover titles (SetDisplayName) and lectern plaques.
+================================================================================
