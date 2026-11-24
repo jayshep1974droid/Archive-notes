@@ -351,3 +351,16 @@ STATUS: MODULE_J_REFINEMENTS_COMMITTED (Markarth Theme, Patch-Free Worth & Prese
 - Fixed Deposit & Withdraw Presets (SPEL + MESG): Both Deposit and Withdraw menus use 6 exact preset tiers: 2,000 | 5,000 | 10,000 | 20,000 | 50,000 | 100,000 Septims (plus carried Gold Ingots & Flawless Gems deposit), repeatable anytime.
 - Future Banking Add-On Ready: Core balances isolated in GlobalVault_Core.esp GlobalVariables (GV_TreasurySeptims, GV_TreasuryWorth, GV_PropertyWorth, GV_TotalNetWorth) for a future standalone Banking System expansion.
 ================================================================================
+================================================================================
+TIMESTAMP_ID: WT_SYNC_054 | DATE: 2026-11-24 | TARGET: GlobalVault_FOMOD_Suite
+STATUS: MODULE_K_CROSS_SAVE_HEIRLOOM_PERSISTENCE_&_BACKDATING_COMMITTED
+================================================================================
+[MODULE_K_ADDITION: PERSISTENT_LINEAGE_FILE_&_CALENDAR_BACKDATING]
+- External Persistence File: Saves enshrined heirlooms to Data\SKSE\Plugins\GlobalVault_Heirlooms.json (via PapyrusUtil/JContainers) so relics persist across New Games and character restarts.
+- Automatic Calendar Back-Dating:
+  * Tracks each heirloom's exact elapsed in-game age (AgeInGameDays).
+  * Placing the Heirloom Museum in a New Game prompts to restore ancestral relics, automatically back-dating each item's placement date prior to Skyrim's 17 Last Seed, 4E 201 start date (rolling into 4E 200 / earlier years accurately) and continuing to age forward across generations.
+- Heirloom Journals & Books:
+  * Interior book text uses relative elapsed phrasing ("Day 4", "Week 3", "Month 2") so static body text never conflicts with calendar dates.
+  * Cover title (SetDisplayName) and lectern plaque dynamically render back-dated Start Date -> Death/End Date (e.g., "14 Sun's Dawn, 4E 201 - 15 Last Seed, 4E 201").
+================================================================================
