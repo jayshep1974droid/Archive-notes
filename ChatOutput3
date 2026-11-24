@@ -1,9 +1,7 @@
-ok, before we get too far, we should take all the
-mod creations to a new project. none of it is actually
-directly required for the current rimbuild, nor does RimBuild
-require it until its complete and part of the modlist.
+now thats better having the new mods seperate from the build!
 
-so is it possible to give me one complete save for the
-mod creation. i will create another project file named
-NewSSEMods, and on restart would create a new project for
-it called New SSE Mods.
+on the vault side there are 2 things.
+first, when selling the publisher there would
+be a global vault we put there. can it be disconnected on the
+sale of the building only being a normal chest? otherwise we cant sell?
+cam we make it so it can only be built on owned property?
