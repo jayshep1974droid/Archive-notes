@@ -1,20 +1,3 @@
-that's brilliant, didnt think it will all be possible.
-
-there is one thing when it comes to heirlooms that 
-might be more diffucult. more so for the books. and that
-is the dates. firstly can the item be saved under a heirloom file
-within the skyrim directory somewhere, even one we create if possible?
-then can we use the date the item, excluding books
-for now, use the date it was placed in the following way.
-if the item was placed 6 months ago, game time. if it was placed 2 days 
-ago game time. on new game when pkacing the building it should
-give you the option to use those displays. back dating the item to the 
-same amount of time before the skyrim calendar begins. and will do the same 
-on a restart after that.
-
-on the books, if internal dates cant be dynamically changed we should not use
-dates on the inside, only days weeks and months. the cover of the journal will
-then cover the dates. start date to death date. and that might be able to be
-back dated?
-
-does that make sense? can we do that?
+just so i understand correctly, if a player starts he's second playthrough. 
+the heirlooms will be updated in the json file. so if a 5th restart is done
+it would have been updated everytime before, moving back with every start?
