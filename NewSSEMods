@@ -78,3 +78,69 @@ STATUS: ISOLATED_FROM_RIMBUILD (Ready for Slot 3/4 Multi-Project Load)
   * Importing heirlooms on a New Game back-dates each item's placement date prior to 17 Last Seed, 4E 201, stepping further back across every subsequent restart (Playthrough 2, 3, 4, 5+).
   * Heirloom Journals use relative interior phrasing ("Day 4", "Week 3", "Month 2") with dynamically back-dated Start Date -> Death/End Date rendered on cover titles (SetDisplayName) and lectern plaques.
 ================================================================================
+PROJECT_ID: NewSSEMods
+TITLE: New SSE Mods (GlobalVault FOMOD Suite)
+SYNC_RANGE: WT_SYNC_038_TO_054_CONSOLIDATED + LOG-176_TO_LOG-189
+TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
+
+[GLOBAL_ARCHITECTURE_&_FOMOD_RULES]
+* Modular FOMOD Architecture: Core foundation + 11 optional standalone modules (Modules A–K) with dynamic cross-module auto-detection (GetModByName != 255).
+* Zero-Polling Papyrus Standards: Strict event-driven architecture (OnInit, OnCellLoad, OnUpdateGameTime, OnActivate, OnDeath, OnTriggerEnter). No OnUpdate polling loops.
+* Relative-Offset Blueprint Spawning & Owned-Property Guard:
+  - All custom buildings (Temple/Church, Publisher, Bookbinder, etc.) spawn via Drafting Table AnchorRef using relative XYZ/Angle offsets.
+  - Owned-Property Placement Guard: Drafting Table blueprint spawning checks GetCurrentLocation() against an owned-property LCTN FormList (plus owned-cell fallback for SkyBuild zones) before allowing construction.
+* Shared Crafting Keyword Routing: GV_BuildPublisherKW, GV_BuildBookbinderKW, GV_BuildChurchKW, GV_ChapelPulpitKW.
+
+[CORE_00: GLOBAL_VAULT_ANTI_CHEAT_LEDGER] (GlobalVault_Core.esp)
+* Shared Cross-Location Storage: Links Hearthfire chests, Safes, Manor Vaults, and Publisher ledger via GlobalVariables and FormLists.
+* Anti-Cheat & Weight/Gold Ledger: Tracks deposited gold/items, enforces capacity tiers, prevents duplicate exploits.
+
+[MODULE_A: MULTI-TIER_HOME_SECURITY_&_GUARD_PATROLS]
+* Scalable security tiers (Basic, Veteran, Elite) for owned homes with exterior patrol markers and intruder response.
+
+[MODULE_B: AUTONOMOUS_ESTATE_STEWARD_&_SUPPLY_LOGISTICS]
+* Automated steward restocking, property tax/upkeep ledger, and raw material routing to Global Vault.
+
+[MODULE_C: DISPLAY_OBSERVER_&_CURATOR_REACTIONS]
+* Zero-polling furniture observation (GV_DisplayObserveKW) where household NPCs, spouses, kids, and followers inspect and comment on displayed artifacts, trophies, and custom portraits.
+* Self-Recognition Hook: Checks GV_PortraitSubjectsFLST on painted portraits so depicted subjects trigger custom self-recognition dialogue branches in Module D.
+
+[MODULE_D: HOUSEHOLD_&_PERSONALITY_DIALOGUE_ENGINE]
+* Expanded greeting, banter, and personality matrix for spouse, adopted children, housecarls, and followers.
+* Painter's Easel & Portrait Capture System:
+  - 3 Painting Modes: (1) Free-Aim Landscape painting (no posing, tags GetCurrentLocation()); (2) Group/Family portrait (poses spouse, kids, and veteran followers; includes PlayerRef if a painter is hired); (3) Solo Self-Portrait via hired painter (GV_HiredPainterAlias) with selectable player pose idles and PlayerRef recognition tagging.
+  - Capture Pipeline: Hides HUD, fires screen capture + auto-crop to FamilyPortrait_XX.dds / LandscapePortrait_XX.dds, and swaps TextureSet onto crafted portrait frames.
+  - Placement & Mural Replacement: Supports (1) free wall hanging via relative coordinates; (2) direct replacement of existing vanilla/Hearthfire paintings; (3) wall mural replacement via Disable() + flush canvas spawn for separate mural meshes, or NiOverride sub-shape texture override / flush overlay for baked wall murals.
+
+[MODULE_E: PRIVATE_ROOMS_LIGHTING_&_COMPANION_SPACING]
+* Two-Tier Private Room Guards (OnTriggerEnter): Restricts master bedrooms/private wings to authorized household/spouse/follower lists.
+* Exterior Pet Sandbox Guard: Interior OnTriggerEnter blocks non-NPC pets/creatures (ActorTypeAnimal / GV_PetExcludeFLST) and routes them via MoveTo() to exterior GV_PetYardMarker with an outdoor Sandbox PACK (Radius 768).
+* Horse Stable Routing: On dismount or OnCellLoad at an owned home, horses route via Travel/Sandbox PACK to GV_StableHitchMarker, filling open stall slots (Radius 64) or falling back to an exterior stable-perimeter Sandbox (Radius 384) when full/unbuilt.
+* Worldwide Follower & Pet Camera-Distance Spacing: Permanently enforces ~140–180 unit spacing worldwide across interiors and exteriors via fFollowSpaceBetweenFollowers / fBumpReactionIdealDistance GMST overrides plus NavMesh-checked OnActivate/dialogue step-back.
+
+[MODULE_F: DYNAMIC_TAXATION_&_HOLD_BOUNTY_CLEARING]
+* Estate property tax scaling by hold wealth and steward-mediated bounty clearing.
+
+[MODULE_G: CHAPEL_PRIESTESS_FUNERAL_&_GRAVEYARD_SYSTEM]
+* Craftable Chapel/Temple + Pulpit FURN (GV_ChapelPulpitKW) staffed by a hired vanilla Priestess alias (zero new NPCs) to preach, officiate weddings, and lead funerals.
+* On-Site Chapel Weddings (GV_ChurchWeddingQuest): Custom altar/guest XMarkerHeading aliases inside the spawned Church allow the hired Priestess to perform full weddings on-site without modifying vanilla Riften Temple aliases.
+* Performance-Tiered Guest Cap (GV_GuestCapTier): Configurable guest pull limits (Low = 6, Medium = 12, High = 20) for weddings and funerals to protect cell FPS.
+* 3-Stage Corpse Handling & Open-Casket Viewing:
+  1. Recovery: OnDeath corpse activation ("Prepare for Burial") or wild-death GV_BurialShroud token transfers inventory to Global Vault (or Module K Heirloom) and disables ragdoll body.
+  2. Open-Casket Viewing & Ceremony: Featured Open-Casket mode places the dead actor reference onto an open-coffin bier marker with SetMotionType(Motion_Keyframed) (zero ragdoll jitter) for attention-drawing viewing during the service, with a Sealed Coffin fallback if desired.
+  3. Post-Funeral Cleanup: Disables/deletes temporary coffin, moves dead actor ref to GV_DeadHoldingCell, and enables a permanent named Gravestone ACTI in the graveyard plot.
+* Single-File Respect Queue (GV_RespectQueueQuest): Single-user FURN markers (Max Users = 1) at the Coffin and Gravestones with a UseItemAt PACK queue funeral guests and visitors with zero polling—using vanilla standing mourning idles (IdlePray / IdleHandsFolded) at the Coffin and vanilla kneeling idles (IdleKneeling / PrayCrouch) at Gravestones.
+* [PARKED / PENDING DISCUSSION]: Multi-generation lore-friendly NPC renaming workflow (cross-referenced with Logvault_1 [LOG-144]/[LOG-145] xEdit rename spec).
+
+[MODULE_H: HEARTHFIRE_PUBLISHER_BOOKBINDER_&_LIBRARY_WING] (Requires Module D)
+* Craftable Publisher & Bookbinder annex (gated by Owned-Property LCTN guard) generating passive book royalties into Vault_PublisherProfits.
+* Publisher Sale Vault Disconnect: Selling the Publisher (GV_PublisherOwned = 0) flushes Vault_PublisherProfits balance to the player, calls Disable() + Delete() on the Global Vault proxy activator, and enables a standard local CONT chest at the exact same coordinates/angles.
+
+[MODULE_I: CRAFTABLE_TROPHY_FORGE_&_ARMORY_EXPANSION]
+* Custom armor/weapon display racks and forged replica trophies linked to Module C Display Observer.
+
+[MODULE_J: TRAVELING_BARD_&_TAVERN_PERFORMANCES]
+* Hired traveling bard routines, custom song requests, and household morale buffs.
+
+[MODULE_K: FAMILY_HEIRLOOM_PRIVATE_MUSEUM_&_CROSS-SAVE_LINEAGE]
+* Exports/imports heirloom items, painted portraits, gravestone lineage records, and follower service tenure (10+ year veteran status) across playthroughs via JSON/SKSE persistence.
