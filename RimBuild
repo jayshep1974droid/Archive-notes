@@ -274,3 +274,19 @@ STATUS: CONSOLIDATED_SESSION_COMMIT (SSEEdit + Standalone Papyrus | Zero CK | Ze
 - Module E (Doorway Clearance & Cinematic Framing): Block greetings/idles within 300 units of Doors/LoadDoors and 200 units of Crafting Stations; Keep-Clear markers nudge lingering NPCs to open-room anchors; household sandbox locked to open-room markers (Radius 512). Video Capture Framing: GMST overrides (fDialogueSoftMaxDist 180-220, fBumpReactionIdealDistance 130-150) + event-driven step-back (~140 units, NavMesh/door-checked) + SetLookAt(PlayerRef, true) eye-contact lock.
 - Module F (Walk-In/Walk-Out Auto Lighting): Event-driven iOccupants counter on ACTI trigger volume (OnTriggerEnter +1 / lights ON if night or indoors; OnTriggerLeave -1 / lights OFF when <= 0; OnDeath -1; OnCellDetach hard reset to 0 & lights OFF; GV_LightsForceOn video override).
 ================================================================================
+================================================================================
+TIMESTAMP_ID: WT_SYNC_041 | DATE: 2026-11-24 | TARGET: GlobalVault_FOMOD_Suite
+STATUS: MODULES_G_&_H_COMMITTED (SSEEdit + Standalone Papyrus | Zero CK | Zero Polling)
+================================================================================
+[MODULE_G: HEARTHFIRE_TEMPLE_CHURCH_&_FUNERAL]
+- Construction: Built piece-by-piece in SkyBuild / Object Placement Saver, converted to Initially Disabled REFR stages linked to Stage Master XMarkers via Enable Parent (XESP) + Drafting/Carpenter Workbench (GV_BuildChurchKW).
+- Funeral Service: Priest/Acolyte eulogy (Say()) + Memorial Urn/Coffin trigger gathering nearby household & followers to pews and inscribing permanent memorial plaques for fallen companions/NPCs.
+
+[MODULE_H: HEARTHFIRE_PUBLISHER_&_BOOKBINDER]
+- Acquisition & Construction: Purchase GV_PublisherDeed from an existing vanilla shop merchant chest (e.g., Belethor / Bits and Pieces / Urag); unlocks Hearthfire-stage construction (GV_BuildPublisherKW) from SkyBuild layout.
+- Staffing (Zero New NPCs): Hire an existing vanilla citizen/scholar into a ReferenceAlias via dialogue or counter notice (applies Vendor/Bookbinder AI Package & VendorItemBook + GV_JournalKW Buy/Sell FLST).
+- Bookbinding Service: Pay 100 Septims + hand over a journal -> stored in PublisherBackroomChest with timestamp GV_PublishReadyTime = GetCurrentGameTime() + 2.0 (2 in-game days); returns original journal + hardbound shelf-ready BOOK copy.
+- Profit Chest & Live Ledger:
+  * Vault_PublisherProfits container (GlobalVaultHoldCell / strongbox) receives passive royalties calculated on-demand (zero polling).
+  * Publisher Ledger BOOK uses native <Global=...> text replacement to display Books Published, Daily Rate, Pending Gold, and Lifetime Revenue directly on the book page.
+================================================================================
