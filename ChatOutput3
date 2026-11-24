@@ -1,14 +1,20 @@
-the publisher installation would then require 
-the personality installation as a dependant. the same 
-as the home display idle points added.
+that's brilliant, didnt think it will all be possible.
 
-the we get to the family heirloom private museum, 
-we will also build it via skybuild. we will add from 
-weapon racks and displays up to books. if i had jewelry 
-displays i would add them as well. even tropies.
+there is one thing when it comes to heirlooms that 
+might be more diffucult. more so for the books. and that
+is the dates. firstly can the item be saved under a heirloom file
+within the skyrim directory somewhere, even one we create if possible?
+then can we use the date the item, excluding books
+for now, use the date it was placed in the following way.
+if the item was placed 6 months ago, game time. if it was placed 2 days 
+ago game time. on new game when pkacing the building it should
+give you the option to use those displays. back dating the item to the 
+same amount of time before the skyrim calendar begins. and will do the same 
+on a restart after that.
 
-one catch though, as soon as its on the display,
-it becomes un usable. except for books, you can read them
-but not take or steal them, if possible.
+on the books, if internal dates cant be dynamically changed we should not use
+dates on the inside, only days weeks and months. the cover of the journal will
+then cover the dates. start date to death date. and that might be able to be
+back dated?
 
-for the trophies we might need patches
+does that make sense? can we do that?
