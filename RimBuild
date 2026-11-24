@@ -331,3 +331,13 @@ STATUS: MODULES_G_&_H_RELATIVE_ANCHOR_PLACEMENT_COMMITTED
   * Build & save the layout once in SkyBuild; convert all piece positions/rotations into relative offsets (dX, dY, dZ, dRotZ) from a single root AnchorRef (Drafting Table).
   * Player places the Drafting Table kit anywhere in Skyrim; each Hearthfire construction stage spawns and rotates its pieces relative to AnchorRef (PlaceAtMe + SetPosition/SetAngle, zero polling).
 ================================================================================
+================================================================================
+TIMESTAMP_ID: WT_SYNC_049 | DATE: 2026-11-24 | TARGET: GlobalVault_FOMOD_Suite
+STATUS: MODULE_E_PRIVATE_BEDROOM_ACCESS_CONTROL_COMMITTED
+================================================================================
+[MODULE_E_ADDITION: PRIVATE_ROOM_BOUNDARY_GUARDS]
+- Placeable Threshold Sensors (ACTI): Works across vanilla homes, Hearthfire manors, and custom SkyBuild layouts without navmesh edits.
+- Two-Tier Privacy Rules (Event-Driven OnTriggerEnter | Zero Polling):
+  * Master Bedroom (GV_MasterRoomGuard): Allows ONLY PlayerRef + Spouse (PlayerMarriedFaction). Blocks and redirects children (BYOHRelationshipAdoptionFaction), housecarls, stewards, bards, and sandboxing followers back to the main hall anchor.
+  * Kids' Bedroom (GV_KidsRoomGuard): Allows ONLY PlayerRef + Spouse + Adopted Children (BYOHRelationshipAdoptionFaction). Blocks and redirects all other household staff, guards, and sandboxing followers.
+================================================================================
