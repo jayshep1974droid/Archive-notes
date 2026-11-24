@@ -1,7 +1,7 @@
-ok but the options wont be visible to the player,
-it will run in the background automatically. how would
-we trigger when she does this? her own hunger?  or a set time?
-how quick does the hunger counter run down so to speak? would
-we be able to calculate and set 2 or so set times? and the
-survival mode has the hunger in already so we wont need 
-an additional mod for hunger?
+sorry, just caught something. the church and 
+graveyard we wont be able to build in skybuild
+because it saves it in a specific place. so if
+we choose to build it at lakeview it would only 
+be available in lakeview on a specific place?
+
+can that be changed?
