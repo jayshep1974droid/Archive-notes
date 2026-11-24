@@ -321,3 +321,13 @@ STATUS: MODULE_I_SCHEDULED_SILENT_MEALTIMES_COMMITTED
   * When either window activates, GV_SpouseSetTablePackage's OnBegin fragment silently inspects Vault_Food, auto-selects the best available meal from prepared dishes or raw stock, consumes the stock, and populates the dining table.
   * Outside meal windows, spouse sandbox remains completely free for Alchemy, Enchanting, and Gear crafting.
 ================================================================================
+================================================================================
+TIMESTAMP_ID: WT_SYNC_048 | DATE: 2026-11-24 | TARGET: GlobalVault_FOMOD_Suite
+STATUS: MODULES_G_&_H_RELATIVE_ANCHOR_PLACEMENT_COMMITTED
+================================================================================
+[ARCHITECTURAL_FIX: LOCATION-INDEPENDENT BLUEPRINT SPAWNING]
+- Problem Solved: Eliminates hardcoded world coordinates so the Temple/Church, Graveyard Plots, and Publisher are NOT locked to Lakeview Manor or any single cell.
+- Relative-Offset Blueprint Method:
+  * Build & save the layout once in SkyBuild; convert all piece positions/rotations into relative offsets (dX, dY, dZ, dRotZ) from a single root AnchorRef (Drafting Table).
+  * Player places the Drafting Table kit anywhere in Skyrim; each Hearthfire construction stage spawns and rotates its pieces relative to AnchorRef (PlaceAtMe + SetPosition/SetAngle, zero polling).
+================================================================================
