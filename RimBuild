@@ -341,3 +341,13 @@ STATUS: MODULE_E_PRIVATE_BEDROOM_ACCESS_CONTROL_COMMITTED
   * Master Bedroom (GV_MasterRoomGuard): Allows ONLY PlayerRef + Spouse (PlayerMarriedFaction). Blocks and redirects children (BYOHRelationshipAdoptionFaction), housecarls, stewards, bards, and sandboxing followers back to the main hall anchor.
   * Kids' Bedroom (GV_KidsRoomGuard): Allows ONLY PlayerRef + Spouse + Adopted Children (BYOHRelationshipAdoptionFaction). Blocks and redirects all other household staff, guards, and sandboxing followers.
 ================================================================================
+================================================================================
+TIMESTAMP_ID: WT_SYNC_051 | DATE: 2026-11-24 | TARGET: GlobalVault_FOMOD_Suite
+STATUS: MODULE_J_REFINEMENTS_COMMITTED (Markarth Theme, Patch-Free Worth & Preset Tiers)
+================================================================================
+[MODULE_J_REFINEMENTS]
+- Visual Theme: Markarth Treasury stone & gilded metal architecture (lore-friendly vanilla assets).
+- Patch-Free Property Worth: Net-Worth Ledger uses safe runtime lookup (Game.GetFormFromFile) for vanilla homes, Hearthfire manors, CC homes, and optional GlobalVault modules—skipping uninstalled plugins silently with zero patches required.
+- Fixed Deposit & Withdraw Presets (SPEL + MESG): Both Deposit and Withdraw menus use 6 exact preset tiers: 2,000 | 5,000 | 10,000 | 20,000 | 50,000 | 100,000 Septims (plus carried Gold Ingots & Flawless Gems deposit), repeatable anytime.
+- Future Banking Add-On Ready: Core balances isolated in GlobalVault_Core.esp GlobalVariables (GV_TreasurySeptims, GV_TreasuryWorth, GV_PropertyWorth, GV_TotalNetWorth) for a future standalone Banking System expansion.
+================================================================================
