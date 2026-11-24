@@ -1,3 +1,9 @@
-just so i understand correctly, if a player starts he's second playthrough. 
-the heirlooms will be updated in the json file. so if a 5th restart is done
-it would have been updated everytime before, moving back with every start?
+ok, before we get too far, we should take all the
+mod creations to a new project. none of it is actually
+directly required for the current rimbuild, nor does RimBuild
+require it until its complete and part of the modlist.
+
+so is it possible to give me one complete save for the
+mod creation. i will create another project file named
+NewSSEMods, and on restart would create a new project for
+it called New SSE Mods.
