@@ -1,5 +1,10 @@
-we should do the publisher here as well, but 
-question before we continue. if we build the
-church/ publisher in skybuild, piece at a time
-and saving it like that as well can we use the 
-hearthfire building "mechanism" to make it buildable?
+we should do it, and the publisher is specifically 
+created to take a journal and "publish" in into
+a book format. so it looks good on the shelf. so the
+player will walk in speak to the npc where he can
+buy whatever books is in the publisher or sell/buy books
+and journals only and have the option to publish a book
+where the player must give the npc say 100 septims and the
+journal. come back 2 ingame days and recieve he's journal
+back with the book. how close can we get ro something
+like that?
