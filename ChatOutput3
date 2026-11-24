@@ -1,26 +1,8 @@
-this next one i find quite interesting, adding to the 
-global chest part. with this the player would need
-a home with an outside where a building can be placed.
-
-we build a vault type building, using maybe dwemer building
-with a metal texture that would be the vault. here there will
-only display septims, gold and flawless gems. we will use 
-we will use 2 big flat type pots or containers available 
-but it should automatically fill with septims and the flawless 
-gems. the gold bars can be stacked on the sides.
-
-the total of the vault should only contain a max amout set,
-max visually full. say 5mil. on the fill of the vault it ahould
-trigger an upgrade option. i wil do a single building with 5 
-additional surrounding it. so the main vault would have one entrance
-and 3 doors, one on each side. only accesable to the player.
-on every additional 5mil the next upgrade will trigger. the first vault
-would immediately have 4 doors to make the upgrade go easier.
-
-so effectively the player wint be able to store those 3 things
-until the vault is placed. there would also only be one vault 
-with upgrades. so they wont be able to build another somewhere else
-total is 30mil and doubt most players would even fill the first.
-or should we make it less per building?
-
-how much of this is possible?
+i agree, we cam make the last to upgrades
+500k each to make a total of 5mil. there is 
+other places like the bank in markarth that can 
+be used. can we add 2 things. a ledger book that 
+gives you a total worth, property worth, treasury worth
+and the 2nd. can we add a spell type function that
+shows treasury worth and a option to add what you holding
+in your inventory to the treasury and withdraw from treasury?
