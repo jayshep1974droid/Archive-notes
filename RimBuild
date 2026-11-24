@@ -251,3 +251,26 @@ SESSION_DECISIONS_&_TRIM_2026_11_23:
 - ECONOMY & PROPERTY: Retain Trade & Barter, Trade Routes, Real Estate Continued, and Fiefdoms while trimming redundant shacks and legacy world-storage add-ons.
 - FOLLOWERS & CORE: Streamline active follower rosters, prioritize Skyrim Audiobooks TTS, and standardize on SkyBuild and Pack Forge.
 - GLOBALVAULT.ESP BLUEPRINT: ESL-flagged plugin featuring zero polling and zero vanilla cell edits, utilizing 10 master containers in a dedicated holding cell (`Vault_Smithing`, `Vault_Alchemy`, `Vault_Enchanter`, `Vault_Cooking`, `Vault_Wardrobe`, `Vault_Weapons`, `Vault_LOTD_Relics`, `Vault_Treasury`, `Vault_Books`, `Vault_General`), permanent proxy chests, household dining/picnic automation, and chapel/funeral service scripting.
+================================================================================
+TIMESTAMP_ID: WT_SYNC_038_TO_040 | DATE: 2026-11-24 | TARGET: GlobalVault_FOMOD_Suite
+STATUS: CONSOLIDATED_SESSION_COMMIT (SSEEdit + Standalone Papyrus | Zero CK | Zero Polling)
+================================================================================
+[PACKAGING_&_CORE_GUARDRAILS]
+- FOMOD Suite: Modular ESL-flagged plugins + ModuleConfig.xml with auto-dependency selection for GlobalVault_Core.esp (Keywords, GlobalVariables, Shared Scripts).
+- Global Vault Anti-Cheat Ledger:
+  * Empty-Start Rule: All 10 holding-cell containers initialize strictly empty.
+  * Legitimate-Acquisition Enforcement: Rejects unplayable/hidden forms (!akBaseItem.IsPlayable()) and optionally bounces console-spawned (player.additem) items lacking a legitimate world/loot/craft/trade acquisition tag.
+
+[LOCKED_MODULES]
+- Module A (Sit & Read Chair): Custom FURN chair linked to Vault_Books; OnActivate triggers IdleBook_Reading + .xwm TTS playback while GetSitState() == 3; OnExitFurniture stops playback immediately.
+- Module B (5-Tier Soul Gem Combiner): Custom FURN table (GV_SoulGemTableKW) + Vault_Enchanter link; COBJ recipes (separate Empty->Empty & Filled->Filled):
+  * T1: 2x Petty + 1x Frostbite Venom -> 1x Lesser
+  * T2: 3x Lesser + 1x Goat Horns -> 1x Common
+  * T3: 3x Common + 1x Giant's Toe -> 1x Greater
+  * T4: 4x Greater + 1x Troll Skull -> 1x Grand
+  * T5: 5x Grand + 1x Wooden Sword + 1x Child's Doll -> 1x Black
+- Module C (Display Observer): Unified keyword GV_DisplayObserveKW (Paintings, Trophies, Statues, Weapons, Mannequins); 1 NPC per FURN slot + GV_LastObservationTime cooldown (45-60s). [Top-Left HUD Milestones: DEFERRED / NOT COMMITTED].
+- Module D (Household & Personality Dialogue): 5 archetypes (Scholar/Mage, Warrior/Pragmatic, Noble/Proud, Rogue/Cynical, Warm/Family via AIDT/VTYP/CLAS); SpouseAlias & Child1/Child2 Aliases with <Alias=...> subtitles + vanilla VTYP / optional .xwm voice; GV_LastGreetTime (10-15 min real-time cooldown).
+- Module E (Doorway Clearance & Cinematic Framing): Block greetings/idles within 300 units of Doors/LoadDoors and 200 units of Crafting Stations; Keep-Clear markers nudge lingering NPCs to open-room anchors; household sandbox locked to open-room markers (Radius 512). Video Capture Framing: GMST overrides (fDialogueSoftMaxDist 180-220, fBumpReactionIdealDistance 130-150) + event-driven step-back (~140 units, NavMesh/door-checked) + SetLookAt(PlayerRef, true) eye-contact lock.
+- Module F (Walk-In/Walk-Out Auto Lighting): Event-driven iOccupants counter on ACTI trigger volume (OnTriggerEnter +1 / lights ON if night or indoors; OnTriggerLeave -1 / lights OFF when <= 0; OnDeath -1; OnCellDetach hard reset to 0 & lights OFF; GV_LightsForceOn video override).
+================================================================================
