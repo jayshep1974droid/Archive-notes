@@ -1,8 +1,5 @@
-ah i see, so it only references to it, it doesnt 
-hold it. and if including it would change the type.
-is it not something we can add to the bsa file?
-is it not better to keep everything within? even if we
-use vanilla?
-
-my apologies, this is all new to me. this will all be
-a learning experience for me.
+one more question, so the soulgem combiner 
+that i want to take and change the vanilla mesh
+and texture will be packed in the mod because
+it wont exist. and because it doesnt belong to 
+anyone it should not be a problem.
