@@ -146,3 +146,9 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
 * Exports/imports heirloom items, painted portraits, gravestone lineage records, and follower service tenure (10+ year veteran status) across playthroughs via JSON/SKSE persistence.
 [PROJECT_CHANGELOG: NewSSEMods]
 * [MODLOG-001] DATE=2026-11-25 | CORE_00_TREASURY_VS_PHYSICAL_VAULT_LOCK: Clarified hybrid architecture—(1) The Physical Vault (GV_MasterVaultChest) stores actual physical Septims, ingots, gems, and gear accessed by all linked home safes/vaults; (2) The Treasury is the GlobalVariable accounting ledger inside GlobalVault_Core.esp that handles remote passive income/expenses (Module A/B/F/H) in unloaded cells and reconciles with physical Septims whenever a vault container is opened.
+[PROJECT_CHANGELOG: NewSSEMods]
+* [MODLOG-002] DATE=2026-11-25 | NO_CK_PIPELINE_AND_MODULE_H_ECONOMY_LIBRARY_RULES:
+  - Build Pipeline: Locked 100% xEdit + standalone Papyrus/SKSE/PO3 workflow (zero Creation Kit).
+  - Publisher Business Tagging: Assigned GV_PublisherVendorFaction (Vendor: Books) + LocTypeStore keyword in xEdit, and scaled passive royalties against Speechcraft + fBarterMin/fBarterMax GMSTs so third-party economy mods naturally influence shop prices and passive book income.
+  - Library Wing Protections: Isolated GV_LibraryArchiveCont from vendor stock (cannot be sold) and added zero-polling OnItemAdded filter enforcing strictly 1 copy per unique Book (bouncing duplicates back to source).
+  - Shop Upgrade Hook: Reserved GV_PublisherShopTier = 1 baseline in Module H; future shop capacity upgrades deferred until live stock/turnover testing.
