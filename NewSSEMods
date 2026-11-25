@@ -169,3 +169,10 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
   - Unique Treasury (1 Per World, 6 Stages) & Lesser Power: Global Vault blocks storing Septims/gold ingots/gems until Treasury is built. Treasury costs: Stage 1 = 2,000 Septims + 10 Gold Ingots; Stages 2–4 = 1,000 Septims + 5 Gold Ingots each; Stages 5–6 = 500 Septims + 2 Gold Ingots each. Includes a Lesser Power to inspect balances and deposit/withdraw remotely (1:1 synced with physical Treasury container to prevent duplication).
   - Crafting Station Integration: Activating Forge/Smelter/Alchemy/Enchanting prompts to pull matching category materials from Global Vault; exiting prompts to return all matching category items from player inventory back into the vault.
   - Container Security: Vault/Treasury containers flagged PlayerFaction-owned to block NPC/bandit theft.
+[PROJECT_CHANGELOG: NewSSEMods]
+* [MODLOG-007] DATE=2026-11-25 | TREASURY_DYNAMIC_CAPACITY_AND_MODULE_L_PROFIT_SHARING:
+  - Total Mods Created Updated: 12 (Modules A–L + Core 00).
+  - Unrobbery Lock: Global Vault & Treasury flagged PlayerFaction-owned, No NPC Looting, and Requires Key (unpickable); access restricted strictly to player and role-authorized household members.
+  - Treasury 6-Stage Capacity Scaling (Base = 1.0x): Stage 1 = 1.0x; Stage 2 = 2.0x; Stage 3 = 3.0x; Stage 4 = 4.0x; Stage 5 = 4.5x; Stage 6 = 5.0x.
+  - Dynamic Fill Visuals: Uses zero-physics static visual clusters (25% / 50% / 75% / 100% fill states per stage—filling racks, strongboxes, and loose floor coin/gem piles at 100%) while tracking exact 1:1 item counts in the container and Lesser Power readout.
+  - New Standalone Module [MODULE_L: ESTATE_PROFIT_SHARING_&_WORKER_WAGES]: Allocates 10% (configurable up to 20%) of each property's specific generated income to be split equally among all followers and spouse/wives actively working at that property.
