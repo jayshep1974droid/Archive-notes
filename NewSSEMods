@@ -205,3 +205,18 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
     * Wing 7 (Soul Gem Vault & Aetherial Soul Condenser): Soul gems only + exclusive Soul Condenser station to merge lower filled soul gems into higher tiers.
     * Wing 8 (Hunter's & Trophy Stock Vault): Pelts, hides, dragon bones/scales, tusks, horns, claws, chitin, and hunting stock.
     * Wing 9 (Campfire & Survival Vault): Campfire/survival tents, bedrolls, kindling, firewood, cooking/tanning kits; controlled via dedicated SKSE Hotkey (pull kit to inventory / return kit to vault) and Campfire placement hooks.
+[PROJECT_CHANGELOG: NewSSEMods]
+* [MODLOG-010] DATE=2026-11-25 | NINE_WING_EXACT_CAPACITY_CAPS_ZERO_DUPLICATES_AND_CROSS_WING_CRAFTING:
+  - Wing 1 Tool Rack Expanded (6 Maxed Tools): Maxed Woodcutter's Axe, Maxed Pickaxe, Blacksmith's Hammer, Shovel, Maxed Fishing Rod (soft-detected), and Master Lockpick / Repair Tongs with Remove/Return toggle.
+  - Zero-Duplicate Storage Routing: Ores stored strictly in Wing 2 (with ingots); Pelts/Hides stored strictly in Wing 8 (with hunting stock).
+  - Cross-Wing Station Pull: Crafting stations (Forge, Tanning Rack, Smelter, Alchemy, Enchanter, Cooking) automatically query and pull required materials across all relevant Treasury Wings simultaneously (e.g., Wing 2 + Wing 4 + Wing 8 at a Forge) and return items to their respective Wings on exit.
+  - Exact Capacity & Upgrade Scaling (Base -> +Per Upgrade x5 -> Max at Upgrade 5):
+    * Wing 1 (Septims): 1,000,000 Base -> 5,000,000 Max (+1M Upgrades 1–3, +500k Upgrades 4–5).
+    * Wing 2 (Foundry & Loom): Ingots & Ores = 200 (+200/upg -> 1,200); Clothing/Leather/Wood Materials = 50 (+50/upg -> 300).
+    * Wing 3 (Granary & Apothecary): Food, Ingredients, Potions & Poisons = 50 each (+50/upg -> 300).
+    * Wing 4 (Jeweler's Vault): Gems = 50 each (+50/upg -> 300); Jewelry = 20 each (+20/upg -> 120).
+    * Wing 5 (Arcane & Reliquary): 5A Unlearned Enchantments = 50 (+50/upg -> 300); 5B Rare Artifacts = 50 (+50/upg -> 300).
+    * Wing 6 (Scriptorium): Books = 200 (+200/upg -> 1,200); Scribe Supplies (Paper/Ink/Quills) = 10 each (+10/upg -> 60).
+    * Wing 7 (Soul Gem Vault): Soul Gems = 50 each (+50/upg -> 300).
+    * Wing 8 (Hunter's Vault): Pelts, Dragon Bones/Scales & Hunting Stock = 50 each (+50/upg -> 300).
+    * Wing 9 (Campfire Vault): Campfire & Survival Items = 50 each (+25/upg -> 175).
