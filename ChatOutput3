@@ -1,4 +1,8 @@
-if it is completely inside our mod, why would 
-it be mod dependant?
-sorry i just need to understand? if the meshes and textures
-are there, what will it have to draw from the mod itself?
+ah i see, so it only references to it, it doesnt 
+hold it. and if including it would change the type.
+is it not something we can add to the bsa file?
+is it not better to keep everything within? even if we
+use vanilla?
+
+my apologies, this is all new to me. this will all be
+a learning experience for me.
