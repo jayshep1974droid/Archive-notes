@@ -176,3 +176,11 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
   - Treasury 6-Stage Capacity Scaling (Base = 1.0x): Stage 1 = 1.0x; Stage 2 = 2.0x; Stage 3 = 3.0x; Stage 4 = 4.0x; Stage 5 = 4.5x; Stage 6 = 5.0x.
   - Dynamic Fill Visuals: Uses zero-physics static visual clusters (25% / 50% / 75% / 100% fill states per stage—filling racks, strongboxes, and loose floor coin/gem piles at 100%) while tracking exact 1:1 item counts in the container and Lesser Power readout.
   - New Standalone Module [MODULE_L: ESTATE_PROFIT_SHARING_&_WORKER_WAGES]: Allocates 10% (configurable up to 20%) of each property's specific generated income to be split equally among all followers and spouse/wives actively working at that property.
+[PROJECT_CHANGELOG: NewSSEMods]
+* [MODLOG-008] DATE=2026-11-25 | CORE_00_TREASURY_CAPS_LEDGER_OVERFLOW_CHEST_AND_STATION_DEPOSITS:
+  - Treasury Capacity Ceilings (6 Sections = Base + Upgrades 1–5):
+    * Septims: Base + Upgrades 1–3 = 1,000,000 each (4,000,000); Upgrades 4 & 5 = 500,000 each (1,000,000) -> 5,000,000 Septims max total.
+    * Gold Ingots & Flawless Gems: 200 per section across Base + Upgrades 1–3 (800) + 100 each for Upgrades 4 & 5 (200) -> 1,000 Gold Ingots and 1,000 Flawless Gems max total.
+  - Physical Treasury Ledger: Placed on a table inside Building 1; displays exact stored Septims, gold bars, flawless gems, capacity tiers, overflow alerts, and total owned property value.
+  - Exterior Overflow Chest (GV_TreasuryOverflowChest): Spawned outside the Treasury building when built; completely disconnected from the Global Vault network and vulnerable to theft/robbery if left uncollected/unupgraded, forcing the player to visit the Treasury to retrieve and deposit surplus.
+  - Station-Specific World Deposits: Crafting stations interact strictly with their own crafting material keywords (Smithing, Alchemy, Enchanting, Cooking); players deposit materials remotely by opening the matching station type.
