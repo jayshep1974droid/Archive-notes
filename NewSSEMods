@@ -192,3 +192,16 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
 * Wing 5: Arcane & Reliquary Vault (Split: 5A = Unlearned Enchanted Gear for disenchanter; 5B = Rare/Unique Artifacts)
 * Wing 6: Scriptorium Archive (Books, journals, paper rolls, inkwells, quills — excludes loose notes)
 * Remaining High-Value Usables (Candidate Wing 7 or Base Ready-Chest): (1) Active Armory (Weapons, Armor, Shields, Arrows/Bolts, Staves, Scrolls); (2) Consumables & Soul Gems (Potions, Poisons, Filled/Empty Soul Gems); (3) Monster Parts/Pelts (Dragon Bones/Scales, Pelts, Tusks).
+[PROJECT_CHANGELOG: NewSSEMods]
+* [MODLOG-009] DATE=2026-11-25 | NINE_WING_TREASURY_SOUL_CONDENSER_HUNTER_CAMPFIRE_AND_TOOL_RACK:
+  - Global Input Rule: All Lesser Powers / quick triggers across the entire mod suite must bind strictly to dedicated SKSE Hotkeys (OnKeyDown) and NEVER occupy vanilla Magic (LMB/RMB) or Shout (Z) slots.
+  - Expanded Treasury to 9 Specialized Wings (each scaling across Base + Upgrades 1–5):
+    * Wing 1 (Septim Mint & Master Ledger): Septims only (up to 5M) + Physical Ledger + Master Tool Display Rack (Maxed Woodcutter's Axe, Maxed Pickaxe, Blacksmith's Hammer, Shovel, plus soft-detected Maxed Fishing Rod) with single-click Remove/Return toggle.
+    * Wing 2 (Foundry & Loom Warehouse): Ingots, ores, wood, leather, cloth/clothing materials.
+    * Wing 3 (Granary & Apothecary Vault): Food, alchemy ingredients, potions, poisons, and all alchemical concoctions.
+    * Wing 4 (Jeweler's Vault): Gold/silver bars, gems, jewelry.
+    * Wing 5 (Arcane & Reliquary Vault): Split 5A (Unlearned enchanted gear) & 5B (Rare/unique artifacts).
+    * Wing 6 (Scriptorium Archive): Books, journals, paper rolls, inkwells, quills (excludes loose notes).
+    * Wing 7 (Soul Gem Vault & Aetherial Soul Condenser): Soul gems only + exclusive Soul Condenser station to merge lower filled soul gems into higher tiers.
+    * Wing 8 (Hunter's & Trophy Stock Vault): Pelts, hides, dragon bones/scales, tusks, horns, claws, chitin, and hunting stock.
+    * Wing 9 (Campfire & Survival Vault): Campfire/survival tents, bedrolls, kindling, firewood, cooking/tanning kits; controlled via dedicated SKSE Hotkey (pull kit to inventory / return kit to vault) and Campfire placement hooks.
