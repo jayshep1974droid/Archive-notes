@@ -1,26 +1,13 @@
-ok, the potions, poisons and all that fall under that 
-category we can add to the ingrediance vault in the treasury.
+the max for each follows, excluding the septims stay the same.
+1 ingots is 200 and will increase 200 with each upgrade, and clothing material is 50 and will increase 50 with every upgrade
+2 all is 50 each, and 50 additional 50 with every upgrade
+3 gems is 50 and jewelry is 20 each and will go up the same amout for every upgrade
+4 enchanted goods is 50 per split and will increase the aame anount with every upgrade
+5 books is 200, the rest is 10 and both will increase the same amount with every upgrade
+6 soulgems is 50 each and will increase the same with every upgrade
+7 hunters is 50 and will increase the same amount with every upgrade
+8 campfire is also 50 each but will only increase 25 per upgrade
 
-soulgems will have its own, i think this is the only space we 
-put the soulgem combiner. we will have to give it another name
-
-and we will create a hunters vault there as well. where that 
-section will hold all related stock. 
-
-we can even create a campfire vault where we keep the stock for
-it, but only if we can add it back if campfire is triggered.
-or use a lesser power to trigger the add or return of it.
-
-note that whenever we create a lesser power it will only be by
-hotkey. never using a key that magic or shouts use.
-
-i will also add a single display in the septim vault for the
-following. maxed axe, maxed pick, hammer, showel. they are needed
-for various reasons. and we will have an option to remive or return
-it. i think. not sure if there is more tools we should have and not 
-sure which tools, excluding those i mentioned can be maxed
-
-and all the vaults would have limits. we can discuss them shortly
-
-and yes, the upgrades we can keep the same, it will increase capacity
-for the first 5 upgrades.
+did i miss something? you have duplicates, ores will be stored with ores, and pelts with pelts.
+we dont have to mix and match, when using the forge it draws in relevant material
+regardless where they are in the treasury 
