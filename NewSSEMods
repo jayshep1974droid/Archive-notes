@@ -144,3 +144,5 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
 
 [MODULE_K: FAMILY_HEIRLOOM_PRIVATE_MUSEUM_&_CROSS-SAVE_LINEAGE]
 * Exports/imports heirloom items, painted portraits, gravestone lineage records, and follower service tenure (10+ year veteran status) across playthroughs via JSON/SKSE persistence.
+[PROJECT_CHANGELOG: NewSSEMods]
+* [MODLOG-001] DATE=2026-11-25 | CORE_00_TREASURY_VS_PHYSICAL_VAULT_LOCK: Clarified hybrid architecture—(1) The Physical Vault (GV_MasterVaultChest) stores actual physical Septims, ingots, gems, and gear accessed by all linked home safes/vaults; (2) The Treasury is the GlobalVariable accounting ledger inside GlobalVault_Core.esp that handles remote passive income/expenses (Module A/B/F/H) in unloaded cells and reconciles with physical Septims whenever a vault container is opened.
