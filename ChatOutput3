@@ -1,12 +1,8 @@
-good morning, please update the following to
-the coreupdate.
-no project logs will be upadted to the logvault
-or coreupdate. project logs will only be updated
-to the project related git file. skyrim build log
-wil be for rimbuild and the mod log wil be for
-newssemods file.
+just a note, we need to add ro the coreupdate.
+i havent been updating the project logs in logvault 
+since 175, and see the logvault is on 190 already.
+that will caues a boot error. and not adding the project 
+logs to logvault to fix the problem.
 
-then question, in the global vault mod creation,
-the treasury. is it part if the global vault? or 
-is the actual septims, and so on, in the actual vault
-we creating?
+can we just update core with the actual count or should
+we use placeholders for the ones not there?
