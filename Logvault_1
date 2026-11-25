@@ -204,12 +204,7 @@
   * **Detail:** Start Helgen Reborn in Season 1 up to guard recruitment; collect Solitude recruit (Winking Skeever) in Season 2. Season 2 Solitude route: Steed Stone -> Solitude (LotD Museum/Safehouse unlock, quick town favours, Landlord shares in Radiant Raiment/Bits & Pieces/Angeline's Aromatics, pick up Wolfskull Cave / Potema quests from Falk Firebeard; park Proudspire Manor until Whiterun border opens) -> Solitude Docks (build The Scarlett first + Belrand crew) -> Windstad Manor & Windstad Mine (build second; stockpile/auto-sell ore).
 * **[LOG-175] DATE=2026-11-19 SLOT=2 TIER=1 RULE=QUEUED_CORRIDOR_FELLBURG_TO_SOLITUDE STATUS=QUEUED SLOT2_REF=202/225**
   * **Detail:** Queued next discussion: map the corridor from Fellburg -> eastern Reach border -> Dragon Bridge -> Solitude, plus next high-value Haafingar locations.
-
-**EOF MANIFEST:** `ID: VAULT_02 | Range: [LOG-01]–[LOG-175] | Count: 175 | Slot 2 Ref: 202/225`
-
-======================================================================
-* [LOG-190] DATE=2026-11-25 SLOT=CORE TIER=1 RULE=PROJECT_ISOLATED_LOGGING_ENFORCED STATUS=LOCKED
+* [LOG-176] DATE=2026-11-25 SLOT=CORE TIER=1 RULE=PROJECT_ISOLATED_LOGGING_ENFORCED STATUS=LOCKED
 * Detail: Enforced strict project-isolated logging: no project logs are written to Logvault_1 or CoreUpdate. All Skyrim build logs update RimBuild exclusively; all mod development logs update NewSSEMods exclusively. CoreUpdate and Logvault_1 track framework rules and top-level mod counts only.
 
-EOF MANIFEST: ID: VAULT_02 | Range: [LOG-01]–[LOG-190] | Count: 190 | Slot 2 Ref: 11/225
-
+* EOF MANIFEST: ID: VAULT_02 | Range: [LOG-01]–[LOG-176] | Count: 176 | Slot 2 Ref: 11/225
