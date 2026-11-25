@@ -157,3 +157,8 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
   - Soft Masterless Integration: Detects LegacyoftheDragonborn.esm at runtime via Game.GetModByName != 255 and dynamically loads LotD's master display FormLists via GetFormFromFile (zero hard ESM dependency).
   - Smart Loot Routing: Undisplayed LotD display items route exclusively to the LotD Prep/Display chest and are blocked from shop auto-sell; all non-LotD loot and already-displayed duplicates bypass LotD and route to Global Vault / Player Shops to maximize Septim profits.
   - Live Inventory Tagging: Dynamically prefixes undisplayed LotD items with "* [LotD] " (via PO3 SetName / Inventory Injector) so the player can visually distinguish museum items from shop-fodder at a glance, automatically removing the prefix once displayed.
+[PROJECT_CHANGELOG: NewSSEMods]
+* [MODLOG-005] DATE=2026-11-25 | VORTEX_ONLY_PERMANENT_HEIRLOOM_DISPLAYS_AND_CORE_CHECKLIST:
+  - Mod Manager Standard: Vortex-only workflow and FOMOD structure (removed MO2; required apps logged for future setup: VS Code + Papyrus ext, Pyro + standalone PapyrusCompiler.exe, SSEEdit, BSArch/CAO, Vortex).
+  - Module K Heirloom Final Rule: Heirlooms placed in the museum become permanent display-only static replicas (irreversible). On constructing the museum in a new playthrough, player is prompted to restore prior lineage displays or wipe/delete GlobalVault_Heirlooms.json permanently.
+  - Phase 1 Focus: Building GlobalVault_Core.esp first using a standard vanilla chest before custom mesh/look work.
