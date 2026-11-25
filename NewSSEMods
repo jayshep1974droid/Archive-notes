@@ -152,3 +152,8 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
   - Publisher Business Tagging: Assigned GV_PublisherVendorFaction (Vendor: Books) + LocTypeStore keyword in xEdit, and scaled passive royalties against Speechcraft + fBarterMin/fBarterMax GMSTs so third-party economy mods naturally influence shop prices and passive book income.
   - Library Wing Protections: Isolated GV_LibraryArchiveCont from vendor stock (cannot be sold) and added zero-polling OnItemAdded filter enforcing strictly 1 copy per unique Book (bouncing duplicates back to source).
   - Shop Upgrade Hook: Reserved GV_PublisherShopTier = 1 baseline in Module H; future shop capacity upgrades deferred until live stock/turnover testing.
+[PROJECT_CHANGELOG: NewSSEMods]
+* [MODLOG-003] DATE=2026-11-25 | LOTD_SOFT_DETECTION_DISPLAY_ISOLATION_AND_INVENTORY_TAGGING:
+  - Soft Masterless Integration: Detects LegacyoftheDragonborn.esm at runtime via Game.GetModByName != 255 and dynamically loads LotD's master display FormLists via GetFormFromFile (zero hard ESM dependency).
+  - Smart Loot Routing: Undisplayed LotD display items route exclusively to the LotD Prep/Display chest and are blocked from shop auto-sell; all non-LotD loot and already-displayed duplicates bypass LotD and route to Global Vault / Player Shops to maximize Septim profits.
+  - Live Inventory Tagging: Dynamically prefixes undisplayed LotD items with "* [LotD] " (via PO3 SetName / Inventory Injector) so the player can visually distinguish museum items from shop-fodder at a glance, automatically removing the prefix once displayed.
