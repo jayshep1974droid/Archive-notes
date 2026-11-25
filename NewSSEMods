@@ -220,3 +220,12 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
     * Wing 7 (Soul Gem Vault): Soul Gems = 50 each (+50/upg -> 300).
     * Wing 8 (Hunter's Vault): Pelts, Dragon Bones/Scales & Hunting Stock = 50 each (+50/upg -> 300).
     * Wing 9 (Campfire Vault): Campfire & Survival Items = 50 each (+25/upg -> 175).
+[PROJECT_CHANGELOG: NewSSEMods]
+* [MODLOG-011] DATE=2026-11-25 | TAILOR_WARDROBE_SWAP_LOCK_VAULT_1_KEYHOLDER_AND_UNIFIED_HOTKEY:
+  - Leather & Strips Relocated: Moved all Leather and Leather Strips into Wing 8 (Hunter's & Trophy Stock Vault) alongside pelts and hides.
+  - Foundry vs. Tailor/Wardrobe Separation:
+    * Foundry Section: Ingots, ores, firewood/sawn logs ONLY (zero mannequins or wardrobe).
+    * Tailor & Wardrobe Section (Clothing Materials Section): Linen and cloth/clothing materials + 3 Armor Set Mannequins + 1 Home Clothing Mannequin + up to 5 Dedicated Quest-Outfit Mannequins (Taarie's Radiant Raiment Fine Clothes, Thalmor Party Clothes, Embassy Thalmor Robes, Northwatch Imperial Disguise, Gourmet Chef Outfit).
+    * Strict Mannequin Allocation & 1-Open-Armor-Slot Rule: Quest-outfit mannequins accept ONLY their specific assigned quest set. At least 1 of the 3 Armor Set Mannequins must remain open/empty so the player's currently worn armor has an open slot to park onto when swapping into any of the 5 quest outfits (and swaps back cleanly on return).
+  - Wing 1 Addition — Master Keyholder: Added a Keyholder in Wing 1 (with the Septims) that holds up to 2 copies of every key (KEYM) as a permanent backup in case a key is ever lost.
+  - Single Unified SKSE Hotkey (Replaces Multiple Lesser Powers): Consolidated all suite-wide quick actions into ONE dedicated SKSE Hotkey (OnKeyDown, never using Magic LMB/RMB or Shout Z slots) opening a unified MessageBox menu (Treasury Ledger/Transfer, Campfire Kit Pull/Return, Quest Outfit Return, plus auto-detected module actions).
