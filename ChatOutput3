@@ -1,3 +1,10 @@
-good, they dont need to know. question, will this be
-an esl? and we create a bsa. so not everyone will be able
-to access the code? excluding those that know how
+the first thing that has to be done is the building.   
+so we will have to do the import to skybuild all skyrim
+and current mod items. thats not done yet.
+
+then create the building with content and chests, including 
+the overflow chest.
+
+then mark the rooms before we start the coding.
+
+is there something im missing?
