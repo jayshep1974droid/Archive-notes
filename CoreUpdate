@@ -18,3 +18,6 @@
 FRAMEWORK DELTA OVERRIDE (SYNCED: 2026-11-25)
 Manifest Override: Total Logs: 176 | Slot 2 Ref: 11/225 (Active: NewSSEMods / Total Mods Created: 11 | Parked: RimBuild / WT_SYNC_001)
 Rule Override [LOG-176]: Project-Isolated Logging Active — Zero project logs written to Logvault_1 or CoreUpdate. All Skyrim build logs route exclusively to RimBuild; all mod creation logs route exclusively to NewSSEMods. CoreUpdate & Logvault_1 store framework rules and top-level counts only.
+FRAMEWORK DELTA OVERRIDE (SYNCED: 2026-11-25)
+Manifest Override: Total Logs: 176 | Slot 2 Ref: 12/225 (Active: NewSSEMods / Total Mods Created: 12 | Parked: RimBuild / WT_SYNC_001)
+Rule Override [LOG-176]: Project-Isolated Logging Active — Zero project logs written to Logvault_1 or CoreUpdate. All Skyrim build logs route exclusively to RimBuild; all mod creation logs route exclusively to NewSSEMods. CoreUpdate & Logvault_1 store framework rules and top-level counts only.
