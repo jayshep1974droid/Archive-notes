@@ -1,8 +1,12 @@
-just a note, we need to add ro the coreupdate.
-i havent been updating the project logs in logvault 
-since 175, and see the logvault is on 190 already.
-that will caues a boot error. and not adding the project 
-logs to logvault to fix the problem.
+we dont use creation kit at all, never.
 
-can we just update core with the actual count or should
-we use placeholders for the ones not there?
+the vault seems to be 100%, no changes needed
+yet. 
+
+question, our publisher business is "taged" as
+a business and will be influenced by economic type
+mods?
+also, the library side books cant be sold. and should
+only keep 1 book of each and should not hold duplicates 
+we would rather add a shop upgrade later. but will have to
+wait to see how nuch the shops hold in the first place.
