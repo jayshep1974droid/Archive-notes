@@ -208,4 +208,8 @@
 **EOF MANIFEST:** `ID: VAULT_02 | Range: [LOG-01]–[LOG-175] | Count: 175 | Slot 2 Ref: 202/225`
 
 ======================================================================
+* [LOG-190] DATE=2026-11-25 SLOT=CORE TIER=1 RULE=PROJECT_ISOLATED_LOGGING_ENFORCED STATUS=LOCKED
+* Detail: Enforced strict project-isolated logging: no project logs are written to Logvault_1 or CoreUpdate. All Skyrim build logs update RimBuild exclusively; all mod development logs update NewSSEMods exclusively. CoreUpdate and Logvault_1 track framework rules and top-level mod counts only.
+
+EOF MANIFEST: ID: VAULT_02 | Range: [LOG-01]–[LOG-190] | Count: 190 | Slot 2 Ref: 11/225
 
