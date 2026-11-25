@@ -184,3 +184,11 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
   - Physical Treasury Ledger: Placed on a table inside Building 1; displays exact stored Septims, gold bars, flawless gems, capacity tiers, overflow alerts, and total owned property value.
   - Exterior Overflow Chest (GV_TreasuryOverflowChest): Spawned outside the Treasury building when built; completely disconnected from the Global Vault network and vulnerable to theft/robbery if left uncollected/unupgraded, forcing the player to visit the Treasury to retrieve and deposit surplus.
   - Station-Specific World Deposits: Crafting stations interact strictly with their own crafting material keywords (Smithing, Alchemy, Enchanting, Cooking); players deposit materials remotely by opening the matching station type.
+[DRAFT_CONCEPT: 6-WING SPECIALIZED TREASURY / VAULT ARCHITECTURE]
+* Wing 1: Septim Mint & Master Ledger (Septims only, up to 5M cap)
+* Wing 2: Foundry & Loom Warehouse (Ingots, ores, wood, leather, cloth/clothing materials)
+* Wing 3: Granary & Apothecary Vault (Food & alchemy ingredients)
+* Wing 4: Jeweler's Vault (Gold/silver bars, gems, jewelry)
+* Wing 5: Arcane & Reliquary Vault (Split: 5A = Unlearned Enchanted Gear for disenchanter; 5B = Rare/Unique Artifacts)
+* Wing 6: Scriptorium Archive (Books, journals, paper rolls, inkwells, quills — excludes loose notes)
+* Remaining High-Value Usables (Candidate Wing 7 or Base Ready-Chest): (1) Active Armory (Weapons, Armor, Shields, Arrows/Bolts, Staves, Scrolls); (2) Consumables & Soul Gems (Potions, Poisons, Filled/Empty Soul Gems); (3) Monster Parts/Pelts (Dragon Bones/Scales, Pelts, Tusks).
