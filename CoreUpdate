@@ -16,8 +16,5 @@
 * **Conversational Brevity & Pacing Rule (`[LOG-171]`):** Keep responses to 3–5 concise lines by default. Do not echo confirmations, dump unrequested checklists, or advance multiple steps at once.
 * **6-Season Timeline Update (`[LOG-173]`):** Each season spans `+25` in-game years (total retirement window: `100–225` years).
 FRAMEWORK DELTA OVERRIDE (SYNCED: 2026-11-25)
-Manifest Override: Total Logs: 190 | Slot 2 Ref: 11/225 (Active: NewSSEMods / Total Mods Created: 11 | Parked: RimBuild / WT_SYNC_001)
-Rule Override [LOG-190]: Project-Isolated Logging Active — Zero project logs written to Logvault_1 or CoreUpdate. All Skyrim build logs route exclusively to RimBuild; all mod creation logs route exclusively to NewSSEMods. CoreUpdate & Logvault_1 store framework rules and top-level counts only.
-FRAMEWORK DELTA OVERRIDE (SYNCED: 2026-11-25)
 Manifest Override: Total Logs: 176 | Slot 2 Ref: 11/225 (Active: NewSSEMods / Total Mods Created: 11 | Parked: RimBuild / WT_SYNC_001)
 Rule Override [LOG-176]: Project-Isolated Logging Active — Zero project logs written to Logvault_1 or CoreUpdate. All Skyrim build logs route exclusively to RimBuild; all mod creation logs route exclusively to NewSSEMods. CoreUpdate & Logvault_1 store framework rules and top-level counts only.
