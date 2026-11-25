@@ -1,10 +1,18 @@
-the first thing that has to be done is the building.   
-so we will have to do the import to skybuild all skyrim
-and current mod items. thats not done yet.
+got it, i will confirm some of it when we are busy,
+because i dont know skybuild and its features.
 
-then create the building with content and chests, including 
-the overflow chest.
+but the interactive items will be in the main vault
+and clothing vault only. 
 
-then mark the rooms before we start the coding.
+we will complete the building itself first before we 
+start on the furniture for all vaults then only add the
+interactive items then the dynamic saving will start for
+the upgrades which is basically only adding space to put it,
+and then begin the dynamic filling and saving process. 
 
-is there something im missing?
+the base installation of skybuild doesnt even add the Vanilla,
+its got a very small amount of items. so we will have to add the
+vanilla.
+
+question, the building and furniture would be in the mod we create?
+why would it be mod dependant?
