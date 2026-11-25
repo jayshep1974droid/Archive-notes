@@ -162,3 +162,10 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
   - Mod Manager Standard: Vortex-only workflow and FOMOD structure (removed MO2; required apps logged for future setup: VS Code + Papyrus ext, Pyro + standalone PapyrusCompiler.exe, SSEEdit, BSArch/CAO, Vortex).
   - Module K Heirloom Final Rule: Heirlooms placed in the museum become permanent display-only static replicas (irreversible). On constructing the museum in a new playthrough, player is prompted to restore prior lineage displays or wipe/delete GlobalVault_Heirlooms.json permanently.
   - Phase 1 Focus: Building GlobalVault_Core.esp first using a standard vanilla chest before custom mesh/look work.
+[PROJECT_CHANGELOG: NewSSEMods]
+* [MODLOG-006] DATE=2026-11-25 | CORE_00_GLOBAL_VAULT_TREASURY_AND_CRAFTING_LINK_SPEC:
+  - Vault Crafting Costs (Forge -> Misc, Owned Property Only): First Master Vault chest = 500 Septims + 5 Gold Ingots + 1 Flawless Diamond; each subsequent linked chest = 200 Septims + 2 Gold Ingots.
+  - Auto-Sort & Role Permissions: All deposited items auto-sort into category sub-containers (Food, Alchemy, Smithing, Enchanting, Gear/Misc). Spouse, kids, and active followers can deposit; all three can pull Food; only spouse and active followers can pull Alchemy/Smithing/Enchanting materials for their crafting roles.
+  - Unique Treasury (1 Per World, 6 Stages) & Lesser Power: Global Vault blocks storing Septims/gold ingots/gems until Treasury is built. Treasury costs: Stage 1 = 2,000 Septims + 10 Gold Ingots; Stages 2–4 = 1,000 Septims + 5 Gold Ingots each; Stages 5–6 = 500 Septims + 2 Gold Ingots each. Includes a Lesser Power to inspect balances and deposit/withdraw remotely (1:1 synced with physical Treasury container to prevent duplication).
+  - Crafting Station Integration: Activating Forge/Smelter/Alchemy/Enchanting prompts to pull matching category materials from Global Vault; exiting prompts to return all matching category items from player inventory back into the vault.
+  - Container Security: Vault/Treasury containers flagged PlayerFaction-owned to block NPC/bandit theft.
