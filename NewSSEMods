@@ -240,3 +240,6 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
 * [MODLOG-016] DATE=2026-11-26 | OVERFLOW_CHEST_PERMANENT_ANCHOR_AND_MULTI_STORY_VERTICAL_FOOTPRINT:
   - Permanent Origin Anchor: Use the Exterior Overflow Chest placed outside the main entrance as the permanent (0,0,0) reference point across all OPS build snapshots so no anchor cleanup is required.
   - Compact Multi-Story Layout (~4x4 large tiles / 2048x2048 units): Stack Wings 1–9 across 2–3 vertical levels (Ground Rotunda, Upper Gallery, Sub-Vault Basement) to fit large exterior yards (Hearthfire Manors, Goldenhills Plantation, Tundra Homestead), with an optional portal-door fallback for cramped city plots.
+* [MODLOG-017] DATE=2026-11-26 | EARLY_GAME_STARTER_STORAGE_CONJURED_STRONGBOX_AND_MIGRATION:
+  - Zero-Conflict Early Storage: Provide an early-game Apprentice Strongbox Lesser Power (or player-placed Wayfarer Stash) capped at 300–500 weight with zero fixed world placement, avoiding all conflicts with vanilla home or city overhaul mods.
+  - Seamless Treasury Handoff: Upon constructing the full Treasury (Wings 1–9), automatically transfer all contents from the starter container into the Treasury wings and upgrade the early access power into full Treasury remote access.
