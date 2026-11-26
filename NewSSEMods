@@ -253,3 +253,7 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
 * [MODLOG-022] DATE=2026-11-26 | GLOBAL_SAWN_LOGS_POOL_AND_VISUAL_LOG_PILE:
   - Unified Lumber Counter: Sync Hearthfire's global BYOHLumberTotal variable with a global Treasury lumber pool so Sawn Logs can be ordered via courier, stored virtually, and pulled automatically for crafting/upgrades across all properties.
   - Visual Log Pile Sync: Link a placed Sawn Log Pile at the Treasury (Wing 5 / exterior yard) to dynamically enable/disable log meshes matching the player's current global Sawn Log count.
+* [MODLOG-023] DATE=2026-11-26 | EXTERIOR_LOG_PILE_DETECTION_COURIER_MILESTONE_AND_FOUNDATION_COST:
+  - Exterior Log Pile Auto-Detection: Place the Treasury Sawn Log Pile outside; on spawn, scan the property for any existing Hearthfire log pile and link to it while keeping the duplicate Treasury log pile disabled if one already exists.
+  - Courier 10-Use Milestone Upgrade: After 10 completed courier dispatches, permanently upgrade courier crate capacity by +30 Ores (50 -> 80) and +30 Ingots (50 -> 80), leaving Pelts/Leather capped at 50.
+  - Stage 1A Foundation & Skirt Build Cost: Require 50 Quarried Stone, 10 Clay, and 2,000 Septims to construct the base foundation and Markarth perimeter wall skirt.
