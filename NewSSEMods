@@ -234,3 +234,6 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
 * [MODLOG-013] DATE=2026-11-25 | ESL_FLAGGED_ESP_AND_BSA_COMPILED_ONLY_PACKAGING:
   - Plugin Format: All suite plugins (GlobalVault_Core.esp + Modules A–L) built as ESL-flagged .esp files (0x0200 header flag, FormIDs compacted to 0x800–0xFFF) so they occupy FE light slots without counting against the 254 ESP limit while preserving Vortex load-order flexibility.
   - Asset & Code Packaging: Each module ships with a matching .bsa archive (via BSArch/CAO) containing compiled .pex scripts and assets only; raw .psc source scripts are excluded from release archives.
+* [MODLOG-015] DATE=2026-11-26 | AE_ONLY_BASELINE_AND_TEMPORARY_FOUNDATION_SKIRT_METHOD:
+  - Target Edition Lock: Standardize all NewSSEMods development exclusively on Skyrim Anniversary Edition (AE 1.6.1170+ with official AE Creation Club content); drop SE 1.5.97 / LE support.
+  - Foundation Skirt Method: Use SkyBuild foundations temporarily as a level snapping jig to place vanilla floors, delete all SkyBuild foundation pieces afterward, and wrap a single-height ring of Markarth stone walls around the underside perimeter to conceal terrain gaps before exporting Build Section 1.
