@@ -250,3 +250,6 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
 * [MODLOG-020] DATE=2026-11-26 | COURIER_FEE_PRICING_AND_ESTATE_LEDGER_BREAKDOWN:
   - Courier Fee Formula: Distance tier from nearest owned home/Treasury (<=25k units = 5 Septims, 25k–50k = 10 Septims, >50k = 15 Septims) + 1 Septim per 10 weight units (averaging ~25–35 Septims per typical haul).
   - Estate Management Ledger UI: Built using native multi-page Message (MESG) choice menus with lightweight event-driven counters (zero polling). Displays Total Income vs. Total Expenses on Page 1, branching into Income Breakdown (Looting, Inheritance, Sales by Item Category, Passive) and Expense Breakdown (Courier Fees, Construction/Upgrades, Crafting/Supplies, Taxes/Upkeep).
+* [MODLOG-022] DATE=2026-11-26 | GLOBAL_SAWN_LOGS_POOL_AND_VISUAL_LOG_PILE:
+  - Unified Lumber Counter: Sync Hearthfire's global BYOHLumberTotal variable with a global Treasury lumber pool so Sawn Logs can be ordered via courier, stored virtually, and pulled automatically for crafting/upgrades across all properties.
+  - Visual Log Pile Sync: Link a placed Sawn Log Pile at the Treasury (Wing 5 / exterior yard) to dynamically enable/disable log meshes matching the player's current global Sawn Log count.
