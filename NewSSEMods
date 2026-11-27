@@ -314,3 +314,12 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
 * [MODLOG-037] DATE=2026-11-27 | OVERFLOW_CHEST_STRICT_PURPOSE_AND_ROBBERY_NOTIFICATION:
   - Confirmed Direct-to-Vault vs. Overflow Separation: Nine Hold Steed deliveries deposit directly into internal Treasury wing containers; GV_TreasuryOverflowChest exists strictly to hold surplus overflow when an internal wing reaches its current capacity cap.
   - Non-Empty Overflow Robbery Alert: Whenever GV_TreasuryOverflowChest holds items (on overflow trigger or check), display the top-left notification: "Limited space on [Wing/Vault Name] — empty overflow chest to prevent robbery." (retaining robbery vulnerability from [MODLOG-008] until cleared or upgraded).
+* [MODLOG-038] DATE=2026-11-27 | OVERFLOW_ROBBERY_TIMER_GUARDHOUSE_WOOD_COSTS_AND_UNIFIED_UPGRADES:
+  - Exterior Overflow Chest Cap & First-Entry Escalating Robbery Timer:
+    * Hard Cap: 250 total items maximum in GV_TreasuryOverflowChest.
+    * First-Entry Clock: Timer starts when the first item enters an empty chest and does not reset when subsequent items overflow (resets only when completely emptied).
+    * Escalating Robbery Windows: 0–24h = 0% grace period; 24–48h = 25% (10% with guards); 48–72h = 50% (20% with guards); 72–96h = 75% (35% with guards); 96h+ = 100% (50% with guards).
+  - Lakeview-Style Wood Guardhouse & Defense Upgrade Costs:
+    * Rear Guardhouse: 10 Quarried Stone, 4 Sawn Logs, 50 Firewood.
+    * Perimeter Fencing & Guard Walkways: 10 Sawn Logs, 100 Firewood.
+  - Unified Whole-Treasury Capacity Upgrades (Upgrades 1–5): Once base construction is complete, each of the 5 capacity upgrades expands all Treasury wings simultaneously as a single building-wide upgrade at the original locked costs (Upgrades 1–3: 1,000 Septims + 5 Gold Ingots each; Upgrades 4–5: 500 Septims + 2 Gold Ingots each).
