@@ -323,3 +323,9 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
     * Rear Guardhouse: 10 Quarried Stone, 4 Sawn Logs, 50 Firewood.
     * Perimeter Fencing & Guard Walkways: 10 Sawn Logs, 100 Firewood.
   - Unified Whole-Treasury Capacity Upgrades (Upgrades 1–5): Once base construction is complete, each of the 5 capacity upgrades expands all Treasury wings simultaneously as a single building-wide upgrade at the original locked costs (Upgrades 1–3: 1,000 Septims + 5 Gold Ingots each; Upgrades 4–5: 500 Septims + 2 Gold Ingots each).
+* [MODLOG-039] DATE=2026-11-27 | PERSONALITY_ENGINE_MOVED_TO_CORE_FOR_STANDALONE_ADDONS:
+  - Supersedes [MODLOG-002] / Header Module H -> Module D Hard Dependency: Move the shared 5-Archetype Household & Personality Dialogue Engine out of standalone Module D and embed it directly into GlobalVault_Core.esp.
+  - True Standalone Addon Independence: Allows players to select Hearthfire Publisher & Bookbinder OR Home, Family & Estate Immersion independently in the FOMOD installer without forcing cross-addon dependencies, while also enriching Core 00 NPCs (Treasury guards and Nine Hold Steed staff).
+* [MODLOG-040] DATE=2026-11-27 | MODULAR_ROADSIDE_TRADE_HUB_ARCHITECTURE:
+  - Supersedes [MODLOG-030] 5-Site Standalone Rule: Standardize on 3 flat, central curated trade-hub locations (Whiterun Tundra, The Rift, and Falkreath) designed as an open roadside crossroads hub rather than a walled mega-compound.
+  - Independent Module Pads: Anchor the hub with the Nine Hold Treasury + Nine Hold Steed Main Depot across the road (Core 00), with adjacent pre-mapped pads for the Hearthfire Publisher & Bookbinder (Module H) and a future Player General Dealer / Stock Retail Shop (paused until Publisher completion).
