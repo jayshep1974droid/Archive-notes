@@ -1,7 +1,8 @@
-its not bypassing the overrlowz it never delivered there,
-the overflow chest is exactly what the name says. it is the 
-overflow when the vault reaches max capacity and have conditions.
-not player dropped. player can only pic up.
+please make sure the overflow is correctly done and 
+the condition surrounding it is in place. the deliveries 
+is directly to the vault, the overflow has a specific purpose
+and in the case that its not empty the notification should
+read limited space on xxx empty overflow chest to prevent robbery 
 
-are you loising focus? re analyse the mod data block please.
-make eure you are up to date with what is there already.
+and recheck what has not been discussed or decided within the nine
+hold treasury mod blueprint please
