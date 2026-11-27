@@ -284,3 +284,5 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
 * [MODLOG-031] DATE=2026-11-27 | WORKFORCE_EXCEPTIONS_LEDGER_AND_NON_FOLLOWER_ON_THE_JOB_LEARNING:
   - Soft-Detected Read-Only Workforce Ledger: Via Game.IsPluginInstalled() + GetFormFromFile() (Landlord, Blackthorn, Windstad Mine, Heljarchen Farm, AE Farming), add an optional exceptions-only ledger view listing solely underperforming workers by Site Name, Worker Name, and Reason (low job skill, low morale, or inexperience) with zero hard dependencies or quest overrides.
   - Non-Follower On-the-Job Skill Progression: Track in-game days/weeks worked per non-follower site worker via JContainers/StorageUtil and gradually increment relevant job ActorValues (Smithing, Alchemy, Speech) via ModActorValue() on weekly ticks—allowing weak workers to improve over time and naturally graduate off the exceptions ledger.
+* [MODLOG-032] DATE=2026-11-27 | PREBUILT_VANILLA_STABLE_STATIC_PLACEMENT:
+  - Single-Piece Vanilla Stable Placement: Place complete pre-assembled vanilla static stable meshes (e.g., WRStable01 / FarmhouseStable from Skyrim.esm) in SkyBuild as a single unit rather than constructing stables piece-by-piece.
