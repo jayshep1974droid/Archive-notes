@@ -293,3 +293,17 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
     * Basement: (1) Alchemy & Apothecary Vault (with Alchemy Lab), (2) Provisions & Hearth Vault (with Cooking Station), (3) Misc, Curios & Oddities Vault.
   - Treasury Guard Shifts: Add 2 Day-Shift (08:00–20:00) and 2 Night-Shift (20:00–08:00) guards patrolling exterior/doors and rotating to guard bunks.
   - FOMOD Consolidation: Group soft-detected Workforce Exceptions Ledger ([MODLOG-031]) with Home/Family/NPC immersion modules (family greetings, NPC item interaction, camera distance) into a unified Home & Estate Immersion addon.
+* [MODLOG-034] DATE=2026-11-27 | NINE_HOLD_TREASURY_FINAL_NAME_AND_REVISED_FLOOR_ALLOCATION:
+  - Supersedes [MODLOG-033] Floor 2 & Basement Room Assignments:
+    * Official Public Title: "Nine Hold Treasury" (continuing directly from the Nine Hold Steed delivery service).
+    * Ground Floor (3 Quadrants + Courtyard): Main Septim Vault (with wall-mounted utility tools: pickaxe, woodcutter's axe, blacksmith hammer), Ingots & Ore Vault, Hunter's/Pelts Vault, open Smithing courtyard, and side Sawn Log yard.
+    * 2nd Floor: Food & Cooked Food + Alchemy Ingredients/Lab/Potions + Gems, Jewelry, Soul Gems, Enchanters (Arcane, Staff, Spider Imbuer), and Soul Gem Condenser.
+    * Basement: Books & Writing/Scroll Materials + Campfire/Survival Goods + Clothing Vault (clothing materials, 5 mannequins for quest outfits, and 3 armor mannequins with 1 always kept empty for instant gear quick-swap).
+    * Scope Cut: Removed dedicated Weapons, Armor, and Misc vaults to eliminate clutter and keep the Treasury focused.
+* [MODLOG-035] DATE=2026-11-27 | REAR_GUARDHOUSE_UPGRADE_STAGE_BUILD_COSTS_AND_CONDENSER_MESH:
+  - Rear Guardhouse & Perimeter Upgrade: Construct the rear guard quarters, perimeter fencing, and guard walkways as a required building upgrade before hiring the 2 Day / 2 Night shift guards.
+  - Stage Construction Costs:
+    * Stage 1B (Ground Floor Walls & Deck): 1,000 Septims, 50 Quarried Stone, 10 Clay, 2 Sawn Logs.
+    * Stage 2 (2nd Floor): 1,000 Septims, 50 Quarried Stone, 10 Clay, 4 Sawn Logs.
+    * Stage 3 (Basement): 1,500 Septims, 50 Quarried Stone, 10 Clay, 1 Sawn Log.
+  - Soul Gem Condenser Mesh & Site Testing Order: Use a modified vanilla Arcane Enchanter mesh for the Soul Gem Condenser; defer final testing/selection of the 5 curated world sites until the full building + rear guard perimeter is exported.
