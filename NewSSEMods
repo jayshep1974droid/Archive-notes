@@ -307,3 +307,10 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
     * Stage 2 (2nd Floor): 1,000 Septims, 50 Quarried Stone, 10 Clay, 4 Sawn Logs.
     * Stage 3 (Basement): 1,500 Septims, 50 Quarried Stone, 10 Clay, 1 Sawn Log.
   - Soul Gem Condenser Mesh & Site Testing Order: Use a modified vanilla Arcane Enchanter mesh for the Soul Gem Condenser; defer final testing/selection of the 5 curated world sites until the full building + rear guard perimeter is exported.
+* [MODLOG-036] DATE=2026-11-27 | POST_BUYOUT_DIRECT_TREASURY_DELIVERY_CAPS_AND_NHS_STALL_TEMPLATE:
+  - Supersedes [MODLOG-026] Overflow Chest Courier Target: Once the Treasury is constructed, Nine Hold Steed deliveries route directly into the internal Treasury wing containers rather than the Exterior Overflow Chest (preserving the Exterior Overflow Chest strictly for its original manual overflow role).
+  - Post-Buyout Crate Limits (Strict Treasury Categories Only): Since up to 9 riders can be dispatched across holds, cap post-buyout crates at 100 each for Ores, Ingots, and Wood, and 50 each for all other Treasury-supported categories (Pelts/Leather, Alchemy/Potions, Food, Gems/Jewelry/Soul Gems, Books, Clothing, Campfire goods); strictly exclude weapons, armor, and general misc items.
+  - Reusable 9-Hold Stall Blueprint: Build one single compact Nine Hold Steed stall layout in SkyBuild and replicate that same template across 9 scouted stable locations.
+* [MODLOG-037] DATE=2026-11-27 | OVERFLOW_CHEST_STRICT_PURPOSE_AND_ROBBERY_NOTIFICATION:
+  - Confirmed Direct-to-Vault vs. Overflow Separation: Nine Hold Steed deliveries deposit directly into internal Treasury wing containers; GV_TreasuryOverflowChest exists strictly to hold surplus overflow when an internal wing reaches its current capacity cap.
+  - Non-Empty Overflow Robbery Alert: Whenever GV_TreasuryOverflowChest holds items (on overflow trigger or check), display the top-left notification: "Limited space on [Wing/Vault Name] — empty overflow chest to prevent robbery." (retaining robbery vulnerability from [MODLOG-008] until cleared or upgraded).
