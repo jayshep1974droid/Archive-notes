@@ -286,3 +286,10 @@ TOTAL_MODS_CREATED: 11 (Modules A–K + Core 00)
   - Non-Follower On-the-Job Skill Progression: Track in-game days/weeks worked per non-follower site worker via JContainers/StorageUtil and gradually increment relevant job ActorValues (Smithing, Alchemy, Speech) via ModActorValue() on weekly ticks—allowing weak workers to improve over time and naturally graduate off the exceptions ledger.
 * [MODLOG-032] DATE=2026-11-27 | PREBUILT_VANILLA_STABLE_STATIC_PLACEMENT:
   - Single-Piece Vanilla Stable Placement: Place complete pre-assembled vanilla static stable meshes (e.g., WRStable01 / FarmhouseStable from Skyrim.esm) in SkyBuild as a single unit rather than constructing stables piece-by-piece.
+* [MODLOG-033] DATE=2026-11-27 | L_SHAPED_QUADRANT_FLOORPLAN_GUARD_SHIFTS_AND_SUITE_CONSOLIDATION:
+  - 3-Quadrant L-Shaped Layout (within 6x6 footprint):
+    * Ground Floor: (1) Main Septim Vault, (2) Ingots & Ore Vault, (3) Hunter's/Pelts Vault, plus open 4th courtyard quadrant (Smelter, Forge, Tanning Rack, Workbench, Grindstone) and side Sawn Log yard.
+    * 2nd Floor: (1) Clothing & Tailor Vault, (2) Armory Vault, (3) Arcane & Soul Gem Vault (Arcane Enchanter, Staff Enchanter, Spider Imbuing Chamber, and Treasury-exclusive Aetherial Soul Condenser).
+    * Basement: (1) Alchemy & Apothecary Vault (with Alchemy Lab), (2) Provisions & Hearth Vault (with Cooking Station), (3) Misc, Curios & Oddities Vault.
+  - Treasury Guard Shifts: Add 2 Day-Shift (08:00–20:00) and 2 Night-Shift (20:00–08:00) guards patrolling exterior/doors and rotating to guard bunks.
+  - FOMOD Consolidation: Group soft-detected Workforce Exceptions Ledger ([MODLOG-031]) with Home/Family/NPC immersion modules (family greetings, NPC item interaction, camera distance) into a unified Home & Estate Immersion addon.
